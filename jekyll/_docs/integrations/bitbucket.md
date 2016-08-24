@@ -1,9 +1,9 @@
 ---
 layout: classic-docs
-title: BitBucket
+title: Bitbucket
 categories: [integrations]
 last_updated: May 11, 2016
-description: BitBucket
+description: Bitbucket
 ---
 Adding the Airbrake-Bitbucket integration will create Bitbucket issues for new
 Airbrake errors.
