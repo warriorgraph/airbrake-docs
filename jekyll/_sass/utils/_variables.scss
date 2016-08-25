@@ -23,4 +23,4 @@ $greaterThanXLarge: "min-width: " + $viewportXLarge;
 $lessThanXLarge: "max-width: " + ($viewportXLarge - 1);
 
 // Typography
-$sansFontFamily: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$sansFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
