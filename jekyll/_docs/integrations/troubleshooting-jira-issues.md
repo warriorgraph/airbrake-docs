@@ -6,7 +6,7 @@ last_updated: May 11, 2016
 description: Troubleshooting JIRA issues
 ---
 
-## Error 1: "Environment can't be set"
+# Error 1: "Environment can't be set"
 
 >400 Bad Request - Field 'environment' cannot be set. It is not on the appropriate screen, or unknown.
 
@@ -15,7 +15,7 @@ for JIRA issue creation.
 The fix is to add the **Environment** field on your JIRA issue screen. These
 next steps will help you add the **Environment field**.
 
-# Steps
+## Steps
 
 ### 1. Click **Administration** in the top right corner and select **Issues**
 
@@ -73,3 +73,11 @@ JIRA.
 
 ### Incorrect: specifies the email
 ![jira issues incorrect username](/docs/assets/img/docs/integrations/jira_issues_incorrect_username.png)
+
+# Error 5: Field is required
+
+>Error: 400 Bad Request - `field_name` is required. Airbrake does not support required field. Please use the default field settings on your Jira account.
+
+This error occurs when your JIRA setup requires a field that Airbrake is not set
+up to provide. Please remove the field that is mentioned in the error message,
+then test the integration again.
