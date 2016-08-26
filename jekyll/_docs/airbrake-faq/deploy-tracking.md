@@ -127,14 +127,25 @@ pages](https://github.com/airbrake/airbrake/wiki/Airbrake-executable).
 To notify Airbrake of your deploys to EngineYard cloud, you can use the
 following `deploy/after_restart.rb` script:
 
-<script src="https://gist.github.com/1500760.js"></script>
+{% highlight ruby %}
+def notify_airbrake?(config)
+  %w(staging production integration).include?(config.environment_name) &&
+  %w(solo app_master).include?(config.current_role)
+end
 
-The above notification script is a modified version of a script included in the
-[Engine Yard Cloud, New Relic and Airbrake deploy
-notifications](http://www.production-hacks.com/2010/05/12/engine-yard-cloud-new-relic-and-hoptoad-deploy-notifications/)
-article by [Jose Fernandez](http://www.production-hacks.com).
+def track_deploy(config)
+  run(
+    "cd #{config.current_path} && bundle exec rake airbrake:deploy " \
+    "ENVIRONMENT=#{config.environment_name} REVISION=#{config.active_revision} " \
+    "USERNAME=#{config.deployed_by} REPOSITORY=#{config.repo}"
+  )
+end
 
-Read more about the `deploy/*.rb` deploy hook scripts on [Engine Yard's
-documentation
-site](http://docs.engineyard.com/howtos/howto-use-deploy-hooks-with-engine-yard-cloud).
+track_deploy(config) if notify_airbrake?(config)
+{% endhighlight %}
+
+You can find more info on `config` and its variables in the <a
+href="https://support.cloud.engineyard.com/hc/en-us/articles/205407008-Use-Ruby-Deploy-Hooks"
+target="_blank">EngineYard doc on ruby deploy hooks</a>.
+
 
