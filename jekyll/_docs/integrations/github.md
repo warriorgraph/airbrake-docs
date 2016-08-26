@@ -6,7 +6,7 @@ last_updated: May 11, 2016
 description: GitHub
 ---
 
-# Adding The GitHub integration
+# Adding the GitHub integration
 Create GitHub issues for new Airbrake errors!
 This integration allows you to create a GitHub issue from an Airbrake error manually.
 You can also set this integration to automatically create a GitHub issue when a new type of error is reported to Airbrake.
@@ -32,53 +32,18 @@ https://github.com/mmcdaris/coffee-bot.git
 
 ![github repo url](/docs/assets/img/docs/integrations/github_repo_url.png)
 
+## Troubleshooting - 404 error
 
-# Adding The GitHub Enterprise integration
-Create GitHub Enterprise issues for new Airbrake errors!
-This integration allows you to create a GitHub Enterprise issue from an Airbrake error manually.
-You can also set this integration to automatically create a GitHub Enterprise issue when a new type of error is reported to Airbrake.
+>Github integration could not connect. Error: 404 - Not Found - Please make sure
+the credentials are correct and try again.
 
-## Authentication
-Airbrake needs your personal GitHub Enterprise access token to create GitHub Enterprise issues for your project.
+If you're seeing this 404 error despite having full access to the repo you're
+trying to integrate with, please make sure third-party application access is
+granted for the Airbrake application.
 
-1. Click **Integrations** for your project
-2. Click **GitHub**
-3. Choose  **GitHub Enterprise** from select menu
-4. Enter your personal GitHub Enterprise access token
-5. Click **Save**
+You can find this option in your organization's settings page:
+https://github.com/organizations/YOUR_ORG_NAME/settings/oauth_application_policy
 
-![github integration type](/docs/assets/img/docs/integrations/github_integration_type.png)
-
-### Find your personal GitHub Enterprise access token
-
-On your GitHub Enterprise account go to personal **Settings**:
-
-![github enterprise dropdown](/docs/assets/img/docs/integrations/github_enterprise_dropdown.png)
-
-Click on **Personal access tokens** button:
-
-![github enterprise tokens](/docs/assets/img/docs/integrations/github_enterprise_tokens.png)
-
-Click on **Generate new token** button:
-
-![github enterprise generate token](/docs/assets/img/docs/integrations/github_enterprise_generate_token.png)
-
-Enter **Token description**, and select **repo** and **public_repo** scopes. Click on **Generate token** button:
-
-![github enterprise token fields](/docs/assets/img/docs/integrations/github_enterprise_token_fields.png)
-
-Copy and paste your token:
-
-![github enterprise new token](/docs/assets/img/docs/integrations/github_enterprise_new_token.png)
-
-## Add your project's GitHub Enterprise repo url
-For a GitHub Enterprise account **airbrake-github.airbrake.io**, for a user **shifi** who has a repo named **airbrake** the GitHub Enterprise URL you would use is:
-
-{% highlight bash %}
-https://airbrake-github.airbrake.io/shifi/airbrake.git
-{% endhighlight %}
-
-1. Enter GitHub Enterprise repo URL
-2. Click **Save**
-
-![github enterprise repo url](/docs/assets/img/docs/integrations/github_enterprise_repo_url.png)
+To enabled third-party access, please click Airbrake then click the "grant"
+button. If you do not see this button, go to your personal settings, in the
+"third-party access" section, and revoke the Airbrake token and try again.
