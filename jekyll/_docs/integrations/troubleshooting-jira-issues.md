@@ -79,5 +79,5 @@ JIRA.
 >Error: 400 Bad Request - `field_name` is required. Airbrake does not support required field. Please use the default field settings on your Jira account.
 
 This error occurs when your JIRA setup requires a field that Airbrake is not set
-up to provide. Please remove the field that is mentioned in the error message,
-then test the integration again.
+up to provide. Please make the field that is mentioned in the error message
+optional in your JIRA settings, then test the integration again.
