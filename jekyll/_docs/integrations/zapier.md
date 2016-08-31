@@ -6,7 +6,7 @@ last_updated: Aug 02, 2016
 description: Zapier
 ---
 
-### **Airbrake V2** integration
+### **Airbrake V2 Beta** integration
 You can turn Airbrake errors into triggers for 500+ apps with the Airbrake V2
 Zapier integration. Combine with
 [filters](https://zapier.com/learn/how-to-use-zapier/custom-filters/) to
@@ -14,7 +14,10 @@ specify which errors trigger actions and which are ignored. Easily create
 pingdom incidents, phone calls, slack `@channel` messages, SMS messages, and
 more.
 
-## Step 1: Configure Airbrake V2
+## Step 1: Unlock Beta & Configure Airbrake V2
+
+**Before continuing, it's important to [unlock the Airbrake V2 Beta](https://zapier.com/developer/invite/43597/a3ddaac2be57f3689b589faf761460bd/).
+You won't be able to integrate correctly without first unlocking Airbrake V2.**
 
 ![search-for-v2](/docs/assets/img/docs/integrations/zapier/search-for-v2.png)
 
