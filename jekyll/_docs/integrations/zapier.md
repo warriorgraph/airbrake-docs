@@ -83,9 +83,15 @@ error.
 
 ### Configuring the SMS message
 
-We want our SMS message to read "Airbrake Error for `PROJECT_NAME`! `TYPE`:
-`MESSAGE` Occurred `COUNT` times.". This is how we configured the SMS message in
-Zapier:
+If we want our SMS message to read like this:
+
+>Airbrake error for `PROJECT_NAME` [`ENVIRONMENT`] `TYPE`: `MESSAGE` occurred
+`COUNT` times.
+For more details check out:
+>
+>`ERROR_URL`
+
+Then this is how we configure the SMS message in Zapier:
 
 ![setup-sms](/docs/assets/img/docs/integrations/zapier/setup-sms.png)
 
