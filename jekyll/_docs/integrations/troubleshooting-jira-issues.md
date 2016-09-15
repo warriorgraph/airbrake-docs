@@ -81,3 +81,12 @@ JIRA.
 This error occurs when your JIRA setup requires a field that Airbrake is not set
 up to provide. Please make the field that is mentioned in the error message
 optional in your JIRA settings, then test the integration again.
+
+# Error 6: Moved permanently
+
+>Jira integration could not connect. Error: 301 Moved Permanently - Please make sure the credentials are correct and try again.
+
+If you're seeing this error with **onDemand** JIRA but have double checked that
+you're using the correct credentials, then please check that you're using
+`https` instead of `http` for the **Server URL** field.
+
