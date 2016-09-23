@@ -15,7 +15,7 @@ dashboard up.  By setting the error class for these errors as a global class,
 the errors will be grouped together as they are delivered to our service.
 
 A full list of grouping options is available in our [grouping
-doc](/docs/airbrake-kb/configuring-error-grouping-settings).
+doc](https://airbrake.io/docs/airbrake-faq/configuring-error-grouping-settings/).
 
 ## Adding a global error class
 
