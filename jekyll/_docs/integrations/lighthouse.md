@@ -10,8 +10,9 @@ Airbrake can integrate with your existing
 [Lighthouse](https://lighthouseapp.com) account, allowing you to create
 Lighthouse tickets for new Airbrake errors.
 
-Configuration involves 2 stess, The first step involves creating a Lighthouse API token on the Lighthouse site.
-The second is to configure Airbrake to use your Lighthouse **API token**, **subdomain**, and **project id**.
+Configuration involves 2 steps. The first step involves creating a Lighthouse
+API token on the Lighthouse site. The second is to configure Airbrake to use
+your Lighthouse **API token**, **subdomain**, and **project id**.
 
 ## Lighthouse API token creation
 
