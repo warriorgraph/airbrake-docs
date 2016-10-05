@@ -1,31 +1,34 @@
 ---
 layout: classic-docs
-title: Notifier API v23
+title: Legacy Notifier API v2.3
+short-title: Notifier API v2.3
 categories: [api-2]
 last_updated: May 11, 2016
 description: notifier API v23
 ---
 
+**NOTE: this API has been replaced by the [V3 Notifier API](https://airbrake.io/docs/api/#create-notice-v3).**
+
 Airbrake accepts error notifications via a RESTful XML API. Clients send XML data to Airbrake using an HTTP `POST` to `http://api.airbrake.io/notifier_api/v2/notices`. Airbrake also accepts notifications over HTTPS for accounts that support SSL.
 
-If you're looking to read your existing data from Airbrake, and not send new data, you'll want to read up on the [Data API](http://help.airbrake.io/faqs/api-2/api-overview).
+If you're looking to read your existing data from Airbrake, and not send new data, you'll want to read up on the [Data API](/docs/api/).
 
-**iOS notifier**<br/>
+**iOS notifier**
 If you are using the iOS notifier make sure you are using the most current version available.
 
 * Pull the latest code from GitHub
 * Push a new version of your application to the App Store
-* If using [App Version](http://help.airbrake.io/kb/ios/app-versions) to ignore errors from previous versions update the [App Version Field](http://cl.ly/2d0A0b3T1y2E3S243M0c) in the [Edit This project](http://cl.ly/1Q3h3P3e3B0n3U1x1i2F) section of your iOS app.
+* If using [App Version](/docs/airbrake-android-ios/app-versions) to ignore errors from previous versions update the [App Version Field](http://cl.ly/2d0A0b3T1y2E3S243M0c) in the [Edit This project](http://cl.ly/1Q3h3P3e3B0n3U1x1i2F) section of your iOS app.
 
-**Content Type**<hr/>
+**Content Type**
 
 All error notification requests should set a content type of "text/xml." Other content types will not be processed.
 
-**Schema**<hr/>
+**Schema**
 
 Airbrake validates incoming XML using an XSD schema, available at http://airbrake.io/airbrake_2_3.xsd. When writing a notifier client, we recommend [**Validating XML**](http://www.xmlforasp.net/schemavalidator.aspx) in unit tests using the [**XSD schema**](http://airbrake.io/airbrake_2_3.xsd).
 
-**Incoming Errors**<hr/>
+**Incoming Errors**
 
 Incoming errors should be described using XML in the POST body of the HTTP request. The available elements are described below. The elements are listed as xpath, so /notice/api-key means an api-key element underneath a notice element, and /notice/@version means the version attribute of the notice element.
 
@@ -105,11 +108,11 @@ Optional. The version of the application that this error came from. If the App V
 
 The params, session, and cgi-data elements can contain one or more var elements for each parameter or variable that was set when the error occurred. Each var element should have a @key attribute for the name of the variable, and element text content for the value of the variable.
 
-**Success responses**<hr/>
+**Success responses**
 
 The server will respond with a 200 OK response if the error is accepted. The response body will contain a notice
 
-**Failure Responses**<hr/>
+**Failure Responses**
 
 If Airbrake cannot create a notice, it will respond with a failure code and message. There are several possible failure responses:
 
@@ -119,7 +122,7 @@ If Airbrake cannot create a notice, it will respond with a failure code and mess
 
 The response body for a failure will contain XML describing the error. The XML will have an errors root element with one or more error children, describing each error that occurred.
 
-**Tracking deploys**<hr/>
+**Tracking deploys**
 
 When Airbrake receives a deploy notification, it will automatically set all errors on that environment to resolved. When new errors come in that get grouped with previously resolved errors, Airbrake will notify you via email and unresolve the entire group again.
 
@@ -135,11 +138,11 @@ The parameters supported are:
 
 The last three parameters are just used for displaying in the deploy history view.
 
-**Error grouping**<hr/>
+**Error grouping**
 
 Airbrake groups similar exceptions into one error group. Errors are currently considered unique if all of the following are equal: the error class, the last file and line number in the backtrace, the controller and action, and the server environment name. This is subject to change and should not be depended on.
 
-**Restrictions**<hr/>
+**Restrictions**
 
 For storage and performance reasons, Airbrake limits the size of incoming exceptions. The following restrictions are currently in place:
 
@@ -147,15 +150,15 @@ For storage and performance reasons, Airbrake limits the size of incoming except
  * Any incoming element with text content over 2 kilobytes will be truncated.
  * Only the first 2000 var elements will be accepted in notice XML. The rest will be discarded.
 
-**Example Request and Response**<hr/>
+**Example Request and Response**
 
-@@@
+{% highlight shell %}
 $ cat example.xml
-@@@
+{% endhighlight %}
 
 **Make sure the code below [validates](http://www.xmlforasp.net/schemavalidator.aspx) using our [XSD schema](http://airbrake.io/airbrake_2_3.xsd)!**
 
-@@@ xml
+{% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <notice version="2.3">
   <api-key>76fdb93ab2cf276ec080671a8b3d3866</api-key>
@@ -187,15 +190,15 @@ $ cat example.xml
     <app-version>1.0.0</app-version>
   </server-environment>
 </notice>
-@@@
+{% endhighlight %}
 
-@@@
-$ curl -XPOST -H"Content-type: text/xml" --data-binary @example.xml http://api.airbrake.io/notifier_api/v2/notices
-@@@
+{% highlight shell %}
+$ curl -XPOST -H "Content-type: text/xml" --data-binary @example.xml http://api.airbrake.io/notifier_api/v2/notices
+{% endhighlight %}
 
-@@@ xml
+{% highlight xml %}
 <notice>
   <id>9ef134aa-2118-9e28-fc51-cd52ecf75b91</id>
   <url>http://airbrake.io/locate/9ef134aa-2118-9e28-fc51-cd52ecf75b91</url>
 </notice>
-@@@
+{% endhighlight %}
