@@ -1,16 +1,14 @@
 <a href="#" id="nav-button">NAV</a>
 <nav class="sidebar">
   <ul class="list-unstyled">
+    <li>
+      <a href="https://airbrake.io/docs/api/" class="sidebar__title"
+         target="_blank">API Reference</a>
+    </li>
     {% capture sidebar %}
     {% for category in site.data.categories %}
     <li><a class="sidebar__title" href="{{ site.baseurl }}/{{ category.index }}/">{{ category.name }}</a>
       <ul class="list-unstyled sidebar__sublist">
-        {% if category.name == "API Information" %}
-        <li><strong>
-          <a href="https://airbrake.io/docs/api/">Full API Reference</a>
-        </strong></li>
-        {% endif %}
-
         {% for doc in site.docs %}
         {% if (doc.categories contains category.slug) and (doc.slug != category.index) %}
         {% if doc.short-title %}
