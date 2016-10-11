@@ -13,8 +13,7 @@ $( document ).ready(function() {
 
   // open intercom when the contact us link is clicked
   $("#contact-us").click(function() {
-    var intercom = $("#intercom-container");
-    if (intercom != null) {
+    if ($("#intercom-container").length) {
       event.preventDefault();
       Intercom('show');
     }
