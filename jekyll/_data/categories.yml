@@ -6,10 +6,6 @@
   slug: ruby
   index: ruby
 
-- name: "API Information"
-  slug: api-2
-  index: api-2
-
 - name: "Integrations"
   slug: integrations
   index: integrations
@@ -37,4 +33,3 @@
 - name: "Using Airbrake Images"
   slug: using-airbrake-images
   index: using-airbrake-images
-
