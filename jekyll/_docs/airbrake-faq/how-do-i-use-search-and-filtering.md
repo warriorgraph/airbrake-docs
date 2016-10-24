@@ -2,43 +2,46 @@
 layout: classic-docs
 title: How do I use search and filtering
 categories: [airbrake-faq]
-last_updated: May 11, 2016
+last_updated: Oct 24, 2016
 description: how do I use search and filtering
 ---
+![Search Box](/docs/assets/img/docs/airbrake/search_box.png)
 
-## Default Search Box
+Search and filtering are available in one easy-to-use search box. Switch between "Resolved" and "Unresolved" errors, search, and filter all in one place.
 
-![basic search box](/docs/assets/img/docs/airbrake/basic_search_box.png)
+## Search Input
 
-The default search box at the top of your error groups list supports text searches for:
+![Search Input](/docs/assets/img/docs/airbrake/search_input.png)
+
+Start typing in the search box and see your results update in real-time. The input at the top of your error list supports text searches for:
 
 - Error type
 - Error message
 - Filename
 - Environment
 
-## Advanced Search & Filter
+## Advanced Filtering
 
-![filters](/docs/assets/img/docs/airbrake/filters.png)
+![Advanced Filtering](/docs/assets/img/docs/airbrake/advanced_filtering.png)
 
-- **Type**: The errors type/class
-- **Message**: The error message
-- **Hostname**: Will show if you send `context/hostname` as described in the [API docs](https://airbrake.io/docs/api/#create-notice-v3)
-- **Environment**: e.g. Production, Staging, this requires you [track deploys](/docs/deploy-tracking)
-- **Component**: The controller the error occurred in, [more info](/docs/airbrake-faq/filtering-component-and-action)
-- **Action**: The controller method the error occurred in, [more info](/docs/airbrake-faq/filtering-component-and-action)
-- **Deploys**: Via [Deployment Tracking](/docs/deploy-tracking)
-- **Date**: Shows all groups with last occurrence values between two dates
+Advanced filtering options allow for further narrowing of results. These options are shown as suggestions beneath the search input and will autocomplete as you type.
 
-*Note: You'll only see an option to sort if you are sending the data. E.g. If you don't have [Deployment Tracking](https://help.airbrake.io/kb/api-2/deploy-tracking) setup; you won't see the filter by deploy option.*
+- **Environment**: e.g. Production, Staging, QA, etc.
+- **Component**: The controller the error occurred in
+- **Action**: The controller method the error occurred in
+- **Deploy**: Set up using [Deployment Tracking](/docs/deploy-tracking)
+- **Before**: Shows all groups with last occurrence before a specific date
+- **After**: Shows all groups with last occurrence after a specific date
+- **On**: Shows all groups with last occurrence on a specific date
+
+*Note: You'll only see an option to filter if you are sending the data. E.g. If you don't have [Deployment Tracking](/docs/deploy-tracking) set up, you won't see the filter by deploy option.*
 
 ## Sort by options
-![sort by options](/docs/assets/img/docs/airbrake/sort_by_options.png)
+![sort by options](/docs/assets/img/docs/airbrake/sort_options.png)
 
 Sort by options include:
 
-- **Last notice occurrence**: sorts by most recent notice
-- **Notice count**: sorts by the number of notices in an error group
-- **Creation date**: sorts by error group creation date
-- **Error Weight**: sorts by recent error impact based on traffic distribution and
-  density
+- **Last notice occurrence**: Sorts by most recent notice
+- **Notice count**: Sorts by the number of notices in an error group
+- **Creation date**: Sorts by error group creation date
+- **Error Weight**: Sorts by recent error impact based on traffic distribution and density
