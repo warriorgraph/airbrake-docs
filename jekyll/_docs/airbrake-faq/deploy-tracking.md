@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Deploy Tracking
 categories: [airbrake-faq]
-last_updated: May 11, 2016
+last_updated: Oct 24, 2016
 description: deploy tracking
 ---
 
@@ -44,7 +44,7 @@ click through to the file/line/revision in GitHub/GitLab.
 You can see your deploy activity on your project overview page and you can
 filter by a specific deploy in the search dropdown.
 
-![filter by deploy](/docs/assets/img/docs/airbrake/filter_by_deploy.png)
+![filter by deploy](/docs/assets/img/docs/airbrake/deploy_filter.png)
 
 ## Deploy tracking with the API
 
@@ -147,5 +147,3 @@ track_deploy(config) if notify_airbrake?(config)
 You can find more info on `config` and its variables in the <a
 href="https://support.cloud.engineyard.com/hc/en-us/articles/205407008-Use-Ruby-Deploy-Hooks"
 target="_blank">EngineYard doc on ruby deploy hooks</a>.
-
-
