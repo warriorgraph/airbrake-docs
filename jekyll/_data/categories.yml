@@ -29,7 +29,3 @@
 - name: "Troubleshooting"
   slug: troubleshooting-2
   index: troubleshooting-2
-
-- name: "Using Airbrake Images"
-  slug: using-airbrake-images
-  index: using-airbrake-images
