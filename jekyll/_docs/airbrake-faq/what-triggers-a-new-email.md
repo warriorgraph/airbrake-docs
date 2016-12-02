@@ -22,7 +22,7 @@ We currently review...
 ## Error types that don't trigger emails
 
 We **explicitly do not** send emails for the following errors, as they are
-far to common and would just become noise:
+far too common and would just become noise:
 
 {% highlight ruby %}
 ActiveRecord::RecordNotFound
