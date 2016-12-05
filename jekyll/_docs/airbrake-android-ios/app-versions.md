@@ -16,7 +16,7 @@ apps. Not everyone will upgrade the app, but you don't want to see reports
 from errors you've already fixed.
 
 ## Current app version
-**Current app version** is the version is the version of your app currently in the app store.
+**Current app version** is the version of your app currently in the app store.
 This is the version you want to report errors for and should list in your
 Airbrake project's **Min app version** setting. See [airbrake-ios
 versioning](https://github.com/airbrake/airbrake-ios#versioning) for more
