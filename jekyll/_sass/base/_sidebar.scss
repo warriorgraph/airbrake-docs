@@ -2,33 +2,30 @@
   display: none;
 }
 
-.sidebar {
-  padding: 0 1em 1em;
+.sidebar-sublist {
+  margin-bottom: 2em;
 }
 
-.sidebar__title {
+$spacer: 0.8em;
+
+.sidebar-link {
   display: block;
-  margin-bottom: 0.5em;
-  font-size: 18px;
+  margin-left: $spacer;
+  padding: $spacer/2 $spacer;
+  font-size: 14px;
+  line-height: 1.5;
+
+  &:hover {
+    background: $ab-white;
+    text-decoration: none;
+  }
 }
 
-.sidebar__sublist {
-  margin-bottom: 3em;
-  font-size: 13px;
-  line-height: 2;
+.sidebar-link--active {
+  font-weight: 500;
+}
 
-  a {
-    display: block;
-    padding-left: .5em;
-
-    &:hover {
-      background: $ab-grey-800;
-      text-decoration: none;
-    }
-  }
-
-  li {
-    padding-left: 1.0em;
-    text-indent: -0.5em;
-  }
+.sidebar-link--title {
+  margin: 0;
+  font-size: 18px;
 }

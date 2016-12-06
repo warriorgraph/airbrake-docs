@@ -2,13 +2,17 @@
 <nav class="sidebar">
   <ul class="list-unstyled">
     <li>
-      <a href="https://airbrake.io/docs/api/" class="sidebar__title"
+      <a href="https://airbrake.io/docs/api/" class="sidebar-link sidebar-link--title"
          target="_blank">API Reference</a>
     </li>
     {% capture sidebar %}
     {% for category in site.data.categories %}
-    <li><a class="sidebar__title" href="{{ site.baseurl }}/{{ category.index }}/">{{ category.name }}</a>
-      <ul class="list-unstyled sidebar__sublist">
+    <li>
+      {% assign category_url = category.index | prepend: '/' | append: '/' %}
+      <a class="sidebar-link sidebar-link--title{% if page.url == category_url %} sidebar-link--active{% endif %}" href="{{ site.baseurl }}/{{ category.index }}/">
+        {{ category.name }}
+      </a>
+      <ul class="list-unstyled sidebar-sublist">
         {% for doc in site.docs %}
         {% if (doc.categories contains category.slug) and (doc.slug != category.index) %}
         {% if doc.short-title %}
@@ -21,7 +25,12 @@
         {% capture title %}{{ title }} ({{ doc.children | size }}){% endcapture %}
         {% endif %}
 
-        <li class="{% if page.path contains doc.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ doc.url }}">{{ title }}</a></li>
+        <li>
+          <a class="sidebar-link{% if page.url == doc.url %} sidebar-link--active{% endif %}"
+            href="{{ site.baseurl }}{{ doc.url }}">
+            {{ title }}
+          </a>
+        </li>
         {% endif %}
         {% endfor %}
       </ul>
@@ -30,7 +39,7 @@
     {% endcapture %}
     {{ sidebar | strip_newlines }}
     <li>
-      <a href="/docs/airbrake-logo-guidelines/" class="sidebar__title"
+      <a href="/docs/airbrake-logo-guidelines/" class="sidebar-link sidebar-link--title"
          target="_blank">Airbrake logo guidelines</a>
     </li>
   </ul>
