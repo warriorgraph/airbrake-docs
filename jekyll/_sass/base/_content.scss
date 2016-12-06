@@ -5,9 +5,13 @@
 
 .content {
   max-width: 850px;
-  padding: 2em;
+  padding: 0.5em;
   color: $ab-grey-300;
   font-size: 19px;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 2em;
+  }
 
   #site-search {
     margin-bottom: 2em;

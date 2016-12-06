@@ -30,8 +30,8 @@ a:hover {
   position: relative;
 }
 
-.ab-md-row-flex {
-  @media (min-width: $screen-md-min) {
+.ab-sm-row-flex {
+  @media (min-width: $screen-sm-min) {
     display: flex;
   }
 }
