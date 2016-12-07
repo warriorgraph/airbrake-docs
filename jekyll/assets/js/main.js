@@ -3,12 +3,9 @@
 
 $( document ).ready(function() {
 
-  // Allow navigation to slide open and close on small devices
-  $("#nav-button").click(function() {
-    event.preventDefault();
-
-    $("#nav-button").toggleClass("open");
-    $("nav.sidebar").toggleClass("open");
+  // Mobile navigation through select tag
+  $('#mobile-nav').on('change', function() {
+    window.location = $(this).find("option:selected").val();
   });
 
   // open intercom when the contact us link is clicked
