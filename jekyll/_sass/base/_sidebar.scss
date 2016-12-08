@@ -1,5 +1,9 @@
-#nav-button {
-  display: none;
+.sidebar {
+  padding: $padding-sidebar-content;
+}
+
+.mobile-nav {
+  width: 100%;
 }
 
 .sidebar-sublist {
@@ -12,7 +16,7 @@ $spacer: 0.8em;
   display: block;
   margin-left: $spacer;
   padding: $spacer/2 $spacer;
-  font-size: 14px;
+  font-size: $fontSmall;
   line-height: 1.5;
 
   &:hover {

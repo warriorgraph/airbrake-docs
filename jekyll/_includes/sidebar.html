@@ -1,6 +1,35 @@
-<a href="#" id="nav-button">NAV</a>
 <nav class="sidebar">
-  <ul class="list-unstyled">
+  <div class="visible-xs">
+    Select a page:
+    <select id="mobile-nav" class="mobile-nav">
+      <option value="https://airbrake.io/docs/api/">API Reference</option>
+      {% for category in site.data.categories %}
+        {% assign category_url = category.index | prepend: '/' | append: '/' %}
+        <option value="{{ site.baseurl }}/{{ category.index }}/"
+          {% if page.url == category_url %}selected{% endif %}>
+          {{ category.name }}
+        </option>
+        {% for doc in site.docs %}
+          {% if (doc.categories contains category.slug) and (doc.slug != category.index) %}
+            {% if doc.short-title %}
+              {% assign title = doc.short-title %}
+            {% else %}
+              {% assign title = doc.title %}
+            {% endif %}
+            {% if doc.children %}
+              {% capture title %}{{ title }} ({{ doc.children | size }}){% endcapture %}
+            {% endif %}
+            <option value="{{ site.baseurl }}{{ doc.url }}"
+              {% if page.url == doc.url %}selected{% endif %}>
+              &nbsp;&nbsp;{{ title }}
+            </option>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </select>
+  </div>
+
+  <ul class="list-unstyled hidden-xs">
     <li>
       <a href="https://airbrake.io/docs/api/" class="sidebar-link sidebar-link--title"
          target="_blank">API Reference</a>

@@ -1,13 +1,16 @@
 .content-wrap {
   background: $ab-white;
-  box-shadow: inset 1px 0px 0px $ab-grey-800;
+
+  @media (min-width: $screen-sm-min) {
+    box-shadow: inset 1px 0px 0px $ab-grey-800;
+  }
 }
 
 .content {
   max-width: 850px;
-  padding: 0.5em;
+  padding: $padding-sidebar-content;
   color: $ab-grey-300;
-  font-size: 19px;
+  font-size: $fontXDefault;
 
   @media (min-width: $screen-sm-min) {
     padding: 2em;
