@@ -6,7 +6,7 @@ last_updated: May 11, 2016
 description: Update credit card information
 ---
 
-You can update your credit card from YOURSUBDOMAIN.airbrake.io/account/credit_card/edit or navigate there manually by following these steps.
+You can update your credit card from [https://airbrake.io/billing/edit](https://airbrake.io/billing/edit) or navigate there manually by following these steps.
 
 1. From the settings page, navigate to the **Account & Billing** section.
 2. Select the **Billing & payment** tab.
