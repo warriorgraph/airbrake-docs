@@ -21,7 +21,7 @@ reset at the start of the next minute:
 
 ## Where can I find my rate limit?
 The limit is different for each plan. To see what your rate limit is, visit the
-**Account settings** page at: `https://YOUR_SUBDOMAIN.airbrake.io/account/edit`
+**Account settings** page at: [https://airbrake.io/account/edit](https://airbrake.io/account/edit)
 You'll receive an email notification each day that your account goes over the
 limit for your plan.
 
