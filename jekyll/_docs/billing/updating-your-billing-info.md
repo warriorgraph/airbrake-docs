@@ -20,7 +20,7 @@ The billing attributes you can update include:
 
 ## Finding your billing section
 You can update your billing information from
-`YOURSUBDOMAIN.airbrake.io/account/credit_card/edit` or navigate there manually
+[https://airbrake.io/billing/edit](https://airbrake.io/billing/edit) or navigate there manually
 by following these steps.
 
 ### Navigate to your billing settings in the side bar
