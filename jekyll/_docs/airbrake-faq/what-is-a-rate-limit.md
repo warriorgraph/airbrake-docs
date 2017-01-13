@@ -35,7 +35,7 @@ reporting errors for the rest of that minute and start again the next minute.
 ## How can I increase my rate limit?
 If you are exceeding your rate limit, you may want to upgrade your Airbrake
 account's plan. An increased rate limit can stop error loss during high traffic
-times.
+times. You can upgrade your Airbrake account's plan here: [https://airbrake.io/account/plan/edit](https://airbrake.io/account/plan/edit)
 
 ## How many errors have I lost from not being on the right plan?
 You can view the number of errors you are missing due to rate limit via the new
