@@ -26,6 +26,8 @@ next steps will help you add the **Environment field**.
 ![jira issues admin dropdown](/docs/assets/img/docs/integrations/jira_issues_admin_dropdown.png)
 
 ### 3. In **Default Screen** under the **Operations** column click **Configure**
+*Note: if you have changed your default screen, make sure to find the screen
+that applies to your project.*
 
 ![jira issues default screen](/docs/assets/img/docs/integrations/jira_issues_default_screen.png)
 
