@@ -40,8 +40,8 @@ that applies to your project.*
 >400 Bad Request - Field 'labels' cannot be set. It is not on the appropriate screen, or unknown.
 
 The solution for this error is nearly identical to the previous **Environment
-can't be set** error except for one variation.  The goal is to add a **Labels**
-field on your JIRA issue screen.  Follow the **Environment can't be set**
+can't be set** error except for one variation. The goal is to add a **Labels**
+field on your JIRA issue screen. Follow the **Environment can't be set**
 instructions above, but instead of adding **Environment** select **Labels**
 from the dropdown menu.
 
@@ -50,7 +50,21 @@ issue screen. This can be caused by created a custom created field named
 **Labels** instead of adding the default one provided by JIRA.
 Please make sure to add the default **Labels** field.
 
-# Error 3: Invalid issue type
+# Error 3: "Summary can't be set"
+
+>400 Bad Request - Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.
+
+The solution for this error is again identical to the **Environment can't be set**
+and **Labels can't be set** errors. Follow the **Environment can't be set**
+instructions above, but instead of adding **Environment** select **Summary**
+from the dropdown menu.
+
+Still seeing this error after following the steps above? If you use **Atlassian
+single sign on** to authenticate, make sure to complete the reauthetication
+process otherwise Airbrake will not have the access needed for the integration
+to work.
+
+# Error 4: Invalid issue type
 
 >400 Bad Request - The issue type selected is invalid.
 
@@ -61,7 +75,7 @@ type](https://confluence.atlassian.com/jira/defining-issue-type-field-values-185
 for your existing project, or create a new JIRA project that supports the
 **Bug** issue type.
 
-# Error 4: Unauthorized
+# Error 5: Unauthorized
 
 >401 Unauthorized - Please make sure the credentials are correct and try again.
 
@@ -76,7 +90,7 @@ JIRA.
 ### Incorrect: specifies the email
 ![jira issues incorrect username](/docs/assets/img/docs/integrations/jira_issues_incorrect_username.png)
 
-# Error 5: Field is required
+# Error 6: Field is required
 
 >Error: 400 Bad Request - `field_name` is required. Airbrake does not support required field. Please use the default field settings on your Jira account.
 
@@ -84,7 +98,7 @@ This error occurs when your JIRA setup requires a field that Airbrake is not set
 up to provide. Please make the field that is mentioned in the error message
 optional in your JIRA settings, then test the integration again.
 
-# Error 6: Moved permanently
+# Error 7: Moved permanently
 
 >Jira integration could not connect. Error: 301 Moved Permanently - Please make sure the credentials are correct and try again.
 
