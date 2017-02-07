@@ -24,6 +24,9 @@ environment.
 - These settings are user specific.
 - These settings only affect email notifications. They will not affect your
   Slack or Hipchat integrations as those are setup per project.*
+- The environment needs to be `production` (case independent). eg: `Production` 
+  is a production environment while `production_US` and `prod` are not a 
+  production environments.
 
 ## Modify your notification settings
 
@@ -31,6 +34,6 @@ environment.
 
 ![airbrake dropdown settings](/docs/assets/img/docs/airbrake/dropdown_settings.png)
 
-### Tune your notification settings and **Save**
+### Tune your notification settings and **Save**   
 
 ![airbrake notification settings](/docs/assets/img/docs/airbrake/notification_settings.png)
