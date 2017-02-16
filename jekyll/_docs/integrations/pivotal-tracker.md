@@ -50,13 +50,13 @@ From here you can input your **API Token** and **Project ID** in the correspondi
 
 Our Pivotal Tracker integration allows for WebHooks updates stored as Airbrake error
 comments. This option can be enabled or disabled under Settings. Choose the project
-you want to enable WebHooks updates for and enter a URL you'd like the error posted 
+you want to enable WebHooks updates for and enter a URL you'd like the error posted
 to and chose whether you want production environment notifications only and click
 save.
 
-To disable WebHooks updates remove the URL and click save. 
+To disable WebHooks updates remove the URL and click save.
 
 Here's an example of the activity recorded in the comments section of an Airbrake
 error:
 
-![webhooks integration example](/docs/assets/img/docs/integrations/webhooks_integration_example.png)
+![pivotal webhooks example](/docs/assets/img/docs/integrations/pivotal_webhooks_example.png)
