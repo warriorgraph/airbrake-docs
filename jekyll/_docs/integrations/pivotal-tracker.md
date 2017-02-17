@@ -14,7 +14,7 @@ After configuring the Pivotal Tracker integration you get several additional ben
 -  Creates comments on the Airbrake error for new activity on Pivotal Tracker
 -  When a story is delivered in Pivotal Tracker the Airbrake errors is marked as resolved
 -  You can manually pull errors from Pivotal Tracker
--  Allows for WebHook updates stored as Airbrake error comments. When a Pivotal Tracker
+-  Allows for Webhook updates stored as Airbrake error comments. When a Pivotal Tracker
    story is closed, its corresponding Airbrake error will be resolved.
 
 ## Configuring the Pivotal Tracker integration
@@ -46,17 +46,12 @@ From here you can input your **API Token** and **Project ID** in the correspondi
 
 ![pivotal settings](/docs/assets/img/docs/integrations/pivotal_settings.png)
 
-### Enabling WebHooks updates
+### Enabling Webhooks updates
 
-Our Pivotal Tracker integration allows for WebHooks updates stored as Airbrake error
-comments. This option can be enabled or disabled under Settings. Choose the project
-you want to enable WebHooks updates for and enter a URL you'd like the error posted
-to and chose whether you want production environment notifications only and click
-save.
-
-To disable WebHooks updates remove the URL and click save.
-
-Here's an example of the activity recorded in the comments section of an Airbrake
-error:
+Our Pivotal Tracker integration allows for Webhook updates stored as Airbrake error
+comments. This option can be enabled or disabled from the integration settings page
+for your project under Pivotal Tracker. Just check/uncheck the Enable Pivotal webhook
+activity checkbox. Here's an example of the Pivotal Tracker activity recorded in the
+comments section of an Airbrake error:
 
 ![pivotal webhooks example](/docs/assets/img/docs/integrations/pivotal_webhooks_example.png)
