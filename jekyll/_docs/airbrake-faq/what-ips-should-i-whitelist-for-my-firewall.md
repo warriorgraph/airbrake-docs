@@ -7,5 +7,7 @@ last_updated: May 11, 2016
 description: What IP should I whitelist for my firewall
 ---
 
-Please contact [support@airbrake.io](mailto:support@airbrake.io) to request a
-static IP.
+As of February 17, 2017 responses from Airbrake come from
+
+- 23.21.34.48 
+- 50.16.145.195
