@@ -48,7 +48,7 @@ party.
 ## Testing your JIRA integration settings
 
 Testing your JIRA integration settings is as easy as clicking on the **Test
-integration** link.
+integration** link found at the bottom of the window after setup is complete.
 
 ![jira test link](/docs/assets/img/docs/integrations/jira_testing.png)
 
@@ -65,6 +65,6 @@ tab, click the **Create JIRA Issue** button:
 After the JIRA issue is created your Airbrake error will show a link to go the
 JIRA issue. The JIRA issue will also link back to get back to the Airbrake error.
 If you would like to remove the association between the Error and issue, just
-click the **Remove issue association** button:
+click the **Remove** button:
 
 ![jira issue link](/docs/assets/img/docs/integrations/jira_issue_link.png)
