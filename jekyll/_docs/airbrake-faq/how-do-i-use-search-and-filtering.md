@@ -33,6 +33,10 @@ Advanced filtering options allow for further narrowing of results. These options
 - **Before**: Shows all groups with last occurrence before a specific date
 - **After**: Shows all groups with last occurrence after a specific date
 - **On**: Shows all groups with last occurrence on a specific date
+- **File**: The file associated with the error
+- **Muted**: Shows all muted/unmuted errors
+- **Hostname**: The hostname associated with the error
+- **RemoteAddr**: The remote address where the error occurred
 
 *Note: You'll only see an option to filter if you are sending the data. E.g. If you don't have [Deployment Tracking](/docs/deploy-tracking) set up, you won't see the filter by deploy option.*
 
