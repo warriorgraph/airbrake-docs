@@ -15,4 +15,4 @@ you will see information message that reads:
 > "Some information on the occurance of this error has been removed from the
 database."
 
-Airbrake deletes this information after based on your plan's retention period.
+Airbrake deletes this information based on your plan's retention period.
