@@ -19,6 +19,13 @@ You will be notified when another team member comments on an exception
 Only receive notifications from errors that occur in the `production`
 environment.
 
+### **Rate limit notification emails**
+Receive an email each day your account reaches its rate limit.
+
+### **Automatically subscribe to new projects**
+When a new project is added you will be subscribed to that project
+automatically. **This option is only available to admins on the account**
+
 ### Notes
 
 - These settings are user specific.
@@ -31,6 +38,8 @@ environment.
 ## Modify your notification settings
 
 ### Open the **upper left dropdown** near your user and click **settings**
+Or click [https://airbrake.io/users/edit](https://airbrake.io/users/edit) to be
+taken to your Profile & Notifications settings.
 
 ![airbrake dropdown settings](/docs/assets/img/docs/airbrake/dropdown_settings.png)
 
