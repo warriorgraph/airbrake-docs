@@ -61,6 +61,28 @@ repository.
 curl -X POST -H "Content-Type: application/json" -d '{"environment":"production","username":"john","repository":"https://github.com/USERNAME/REPO","revision":"38748467ea579e7ae64f7815452307c9d05e05c5","version":"v2.0"}' "https://airbrake.io/api/v4/projects/PROJECT_ID/deploys?key=PROJECT_KEY"
 {% endhighlight %}
 
+### Example bash script
+This is a simple example that registers a deploy with Airbrake. It assumes it is
+run from a Git repository of your deployed project code. You can tweak how the
+deployed `REVISION` is determined to suite your deploy process. Make sure you
+check and modify the variables as appropriate for your project and requirements.
+
+{% highlight bash %}
+#!/bin/bash
+
+PROJECT_ID=12345
+PROJECT_KEY=ABCDEF123456
+ENVIRONMENT=production
+REPOSITORY=https://github.com/USERNAME/REPO
+REVISION="$(git rev-parse HEAD)"
+USERNAME=$(whoami)
+
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d "{'environment':'${ENVIRONMENT}','username':'${USERNAME}','repository':'${REPOSITORY}','revision':'${REVISION}'}" \
+  "https://airbrake.io/api/v4/projects/${PROJECT_ID}/deploys?key=${PROJECT_KEY}"
+{% endhighlight %}
+
 ### JSON post data description
 You can post JSON data with the following keys. there are example
 
