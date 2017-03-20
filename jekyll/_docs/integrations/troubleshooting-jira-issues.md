@@ -106,3 +106,9 @@ If you're seeing this error with **onDemand** JIRA but have double checked that
 you're using the correct credentials, then please check that you're using
 `https` instead of `http` for the **Server URL** field.
 
+# Whitelist IPs
+
+If you're experiencing connection issues please try whitelisting the IPs in the
+following doc for your firewall.
+
+[https://airbrake.io/docs/airbrake-faq/what-ips-should-i-whitelist-for-my-firewall/](https://airbrake.io/docs/airbrake-faq/what-ips-should-i-whitelist-for-my-firewall/)
