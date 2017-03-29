@@ -47,8 +47,9 @@ the same as it appears in YOURSUBDOMAIN.campfirenow.com/rooms
 ## Testing
 Now use the **Test Integration** link from your Campfire Integration to check
 your configuration. This will send a test message from Airbrake to your
-Campfire room.
+Campfire room. You will see the message at the top if it's successful.
 ![campfire test](/docs/assets/img/docs/integrations/campfire_testing.png)
 
 You should see a message like this in your Campfire room:
+
 ![campfire test](/docs/assets/img/docs/integrations/campfire_test_results.png)

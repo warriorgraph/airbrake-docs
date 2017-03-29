@@ -23,7 +23,7 @@ You can update your billing information from
 [https://airbrake.io/billing/edit](https://airbrake.io/billing/edit) or navigate there manually
 by following these steps.
 
-### Navigate to your **Account & Billing** settings in the side bar.
+### Navigate to your **Account & billing** under your user name in the upper right corner.
 ![billing settings](/docs/assets/img/docs/airbrake/billing_settings.png)
 
 ### Navigate to the **Billing & payment** tab, update your billing info, and then **Save**.

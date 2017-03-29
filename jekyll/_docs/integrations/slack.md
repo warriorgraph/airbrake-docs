@@ -41,9 +41,8 @@ Copy the **Slack webhook URL** from instructions to Your Airbrake project's slac
 ![slack webhook](/docs/assets/img/docs/integrations/slack_webhook.png)
 
 ## Add the **Slack webhook URL** to your Airbrake project
-From your Airbrake project's error dashboard, click the **cog in
-the upper left** near the project's name. From your project settings page click
-**Integrations** in the left sidebar and then select **Slack**.
+From your Airbrake project's error dashboard, click **Integrations in the menu bar**
+near the project's name. From your project's integration page click **Slack** in the left sidebar.
 
 Paste your **Slack webhook URL** into the form and Save!
 

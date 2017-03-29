@@ -11,13 +11,6 @@ The default behaviour is to automatically create a Bitbucket issue when a new
 type of error is reported to Airbrake, this can be turned off if you prefer to
 create a Bitbucket issue from an Airbrake error manually.
 
-## Adding the Bitbucket integration
-
-### Project settings
-Click the upper left cog to get to your project's settings:
-
-![airbrake settings cog](/docs/assets/img/docs/airbrake/settings_cog.png)
-
 ### Authenticate with Bitbucket
 Airbrake needs permission to create Bitbucket issues for your project, our next
 step is to authenticate!
@@ -30,4 +23,5 @@ step is to authenticate!
 
 ### Add Bitbucket integration
 Add your Bitbucket account name and project's repository name then **save**.
+
 ![bitbucket settings](/docs/assets/img/docs/integrations/bitbucket_settings.png)

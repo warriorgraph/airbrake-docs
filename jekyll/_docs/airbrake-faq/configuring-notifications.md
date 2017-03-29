@@ -37,11 +37,11 @@ automatically. **This option is only available to admins on the account**
 
 ## Modify your notification settings
 
-### Open the **upper left dropdown** near your user and click **settings**
+### Open the **upper right dropdown** under your user name and click **profile & notifications**
 Or click [https://airbrake.io/users/edit](https://airbrake.io/users/edit) to be
 taken to your Profile & Notifications settings.
 
-![airbrake dropdown settings](/docs/assets/img/docs/airbrake/dropdown_settings.png)
+![airbrake dropdown profile & notifications](/docs/assets/img/docs/airbrake/dropdown_profile_and_notifications.png)
 
 ### Tune your notification settings and **Save**
 
