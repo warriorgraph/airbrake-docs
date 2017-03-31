@@ -79,7 +79,7 @@ USERNAME=$(whoami)
 
 curl -X POST \
   -H "Content-Type: application/json" \
-  -d "{'environment':'${ENVIRONMENT}','username':'${USERNAME}','repository':'${REPOSITORY}','revision':'${REVISION}'}" \
+  -d '{"environment":"'${ENVIRONMENT}'","username":"'${USERNAME}'","repository":"'${REPOSITORY}'","revision":"'${REVISION}'"}' \
   "https://airbrake.io/api/v4/projects/${PROJECT_ID}/deploys?key=${PROJECT_KEY}"
 {% endhighlight %}
 
