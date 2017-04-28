@@ -189,14 +189,3 @@ track_deploy(config) if notify_airbrake?(config)
 You can find more info on `config` and its variables in the <a
 href="https://support.cloud.engineyard.com/hc/en-us/articles/205407008-Use-Ruby-Deploy-Hooks"
 target="_blank">EngineYard doc on ruby deploy hooks</a>.
-
-## **DEPRECATED** Airbrake executable
-**DEPRECATION WARNING**: The information on the Airbrake executable is related
-to Airbrake v4 only and is no longer available in Airbrake v5.
-
-{% highlight bash %}
-airbrake deploy -k YOUR_API_KEY
-{% endhighlight %}
-
-For more information about the executable, please visit the Airbrake gem [wiki
-pages](https://github.com/airbrake/airbrake/wiki/Airbrake-executable).
