@@ -1,8 +1,8 @@
 ---
 layout: classic-docs
-title: Deploy Tracking
+title: Deploy tracking
 categories: [airbrake-faq]
-last_updated: Oct 24, 2016
+last_updated: Apr 28, 2017
 description: deploy tracking
 ---
 
@@ -127,24 +127,44 @@ environment.
 rake airbrake:deploy RAILS_ENV=development TO=development
 {% endhighlight %}
 
-## Capistrano
+### Capistrano
 
 If you use capistrano, you shouldn't have to run the rake command by hand.  The
 Airbrake notifier also includes a capistrano recipe that runs after
 `deploy:cleanup` which automatically triggers that rake task.
 
-## **DEPRECATED** Airbrake executable
-**DEPRECATION WARNING**: The information on the Airbrake executable is related
-to Airbrake v4 only and is no longer available in Airbrake v5.
+## Deploy tracking on Heroku
 
+To implement Deploy Hooks on Heroku, please use one of the following options.
+
+You can manually create the Deploy hook:
 {% highlight bash %}
-airbrake deploy -k YOUR_API_KEY
+heroku addons:add deployhooks:http \
+--url="https://airbrake.io/api/v3/projects/PROJECT_ID/heroku-deploys\
+?key=PROJECT_KEY\
+&environment=ENVIRONMENT\
+&repository=REPOSITORY_URL"
 {% endhighlight %}
 
-For more information about the executable, please visit the Airbrake gem [wiki
-pages](https://github.com/airbrake/airbrake/wiki/Airbrake-executable).
+Or create it using rake:
+{% highlight bash %}
+rake airbrake:install_heroku_deploy_hook
+{% endhighlight %}
 
-## Usage Engine Yard Cloud
+Be sure to provide the app name for the rake task if you have multiple Heroku
+apps configured. You can send it by setting the `HEROKU_APP` environment
+variable.
+
+The repository URL will default to the URL of the `origin` remote. The
+`REPOSITORY_URL` environment variable can be used to override this value.
+
+{% highlight bash %}
+export HEROKU_APP=your-heroku-app
+export REPOSITORY_URL=git@github.com:username/repo.git
+rake airbrake:install_heroku_deploy_hook
+{% endhighlight %}
+
+## Deploy tracking on Engine Yard Cloud
 
 To notify Airbrake of your deploys to EngineYard cloud, you can use the
 following `deploy/after_restart.rb` script:
