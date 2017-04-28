@@ -133,26 +133,34 @@ If you use capistrano, you shouldn't have to run the rake command by hand.  The
 Airbrake notifier also includes a capistrano recipe that runs after
 `deploy:cleanup` which automatically triggers that rake task.
 
-# Heroku Deploy Hooks
+## Heroku Deploy Hooks
 
-To implement Deploy Hooks on Heroku/Cedar stack, please use one of the following:
+To implement Deploy Hooks on Heroku, please use one of the following:
 
 {% highlight bash %}
 heroku addons:add deployhooks:http \
---url="http://airbrake.io/deploys.txt \
-?deploy[rails_env]=production \
-&api_key=AIRBRAKE_API_KEY \
-&deploy[local_username]={{user}} \
-&deploy[scm_revision]={{head_long}} \
-&deploy[scm_repository]=GITHUB_URL" # e.g. git@github.com:username/repo.git
+--url="https://airbrake.io/api/v3/projects/PROJECT_ID/heroku-deploys\
+?key=PROJECT_KEY\
+&environment=ENVIRONMENT\
+&repository=REPOSITORY_URL"
 {% endhighlight %}
 
 {% highlight bash %}
-rake airbrake:heroku:add_deploy_notification
+rake airbrake:install_heroku_deploy_hook
 {% endhighlight %}
 
 Be sure to provide the app name for the rake task if you have multiple Heroku
-apps configured. You can send it by specifying `ENV["HEROKU_APP"]`.
+apps configured. You can send it by setting the `HEROKU_APP` environment
+variable.
+
+The repository URL will default to the URL of the `origin` remote. The
+`REPOSITORY_URL` environment variable can be used to override this value.
+
+{% highlight bash %}
+export HEROKU_APP=your-heroku-app
+export REPOSITORY_URL=git@github.com:username/repo.git
+rake airbrake:install_heroku_deploy_hook
+{% endhighlight %}
 
 ## **DEPRECATED** Airbrake executable
 **DEPRECATION WARNING**: The information on the Airbrake executable is related
