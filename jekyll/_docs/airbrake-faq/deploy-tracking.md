@@ -133,6 +133,27 @@ If you use capistrano, you shouldn't have to run the rake command by hand.  The
 Airbrake notifier also includes a capistrano recipe that runs after
 `deploy:cleanup` which automatically triggers that rake task.
 
+# Heroku Deploy Hooks
+
+To implement Deploy Hooks on Heroku/Cedar stack, please use one of the following:
+
+{% highlight bash %}
+heroku addons:add deployhooks:http \
+--url="http://airbrake.io/deploys.txt \
+?deploy[rails_env]=production \
+&api_key=AIRBRAKE_API_KEY \
+&deploy[local_username]={{user}} \
+&deploy[scm_revision]={{head_long}} \
+&deploy[scm_repository]=GITHUB_URL" # e.g. git@github.com:username/repo.git
+{% endhighlight %}
+
+{% highlight bash %}
+rake airbrake:heroku:add_deploy_notification
+{% endhighlight %}
+
+Be sure to provide the app name for the rake task if you have multiple Heroku
+apps configured. You can send it by specifying `ENV["HEROKU_APP"]`.
+
 ## **DEPRECATED** Airbrake executable
 **DEPRECATION WARNING**: The information on the Airbrake executable is related
 to Airbrake v4 only and is no longer available in Airbrake v5.
