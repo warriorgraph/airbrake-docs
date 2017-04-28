@@ -1,8 +1,8 @@
 ---
 layout: classic-docs
-title: Deploy Tracking
+title: Deploy tracking
 categories: [airbrake-faq]
-last_updated: Oct 24, 2016
+last_updated: Apr 28, 2017
 description: deploy tracking
 ---
 
@@ -127,16 +127,17 @@ environment.
 rake airbrake:deploy RAILS_ENV=development TO=development
 {% endhighlight %}
 
-## Capistrano
+### Capistrano
 
 If you use capistrano, you shouldn't have to run the rake command by hand.  The
 Airbrake notifier also includes a capistrano recipe that runs after
 `deploy:cleanup` which automatically triggers that rake task.
 
-## Heroku Deploy Hooks
+## Deploy tracking on Heroku
 
-To implement Deploy Hooks on Heroku, please use one of the following:
+To implement Deploy Hooks on Heroku, please use one of the following options.
 
+You can manually create the Deploy hook:
 {% highlight bash %}
 heroku addons:add deployhooks:http \
 --url="https://airbrake.io/api/v3/projects/PROJECT_ID/heroku-deploys\
@@ -145,6 +146,7 @@ heroku addons:add deployhooks:http \
 &repository=REPOSITORY_URL"
 {% endhighlight %}
 
+Or create it using rake:
 {% highlight bash %}
 rake airbrake:install_heroku_deploy_hook
 {% endhighlight %}
@@ -162,18 +164,7 @@ export REPOSITORY_URL=git@github.com:username/repo.git
 rake airbrake:install_heroku_deploy_hook
 {% endhighlight %}
 
-## **DEPRECATED** Airbrake executable
-**DEPRECATION WARNING**: The information on the Airbrake executable is related
-to Airbrake v4 only and is no longer available in Airbrake v5.
-
-{% highlight bash %}
-airbrake deploy -k YOUR_API_KEY
-{% endhighlight %}
-
-For more information about the executable, please visit the Airbrake gem [wiki
-pages](https://github.com/airbrake/airbrake/wiki/Airbrake-executable).
-
-## Usage Engine Yard Cloud
+## Deploy tracking on Engine Yard Cloud
 
 To notify Airbrake of your deploys to EngineYard cloud, you can use the
 following `deploy/after_restart.rb` script:
@@ -198,3 +189,14 @@ track_deploy(config) if notify_airbrake?(config)
 You can find more info on `config` and its variables in the <a
 href="https://support.cloud.engineyard.com/hc/en-us/articles/205407008-Use-Ruby-Deploy-Hooks"
 target="_blank">EngineYard doc on ruby deploy hooks</a>.
+
+## **DEPRECATED** Airbrake executable
+**DEPRECATION WARNING**: The information on the Airbrake executable is related
+to Airbrake v4 only and is no longer available in Airbrake v5.
+
+{% highlight bash %}
+airbrake deploy -k YOUR_API_KEY
+{% endhighlight %}
+
+For more information about the executable, please visit the Airbrake gem [wiki
+pages](https://github.com/airbrake/airbrake/wiki/Airbrake-executable).
