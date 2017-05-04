@@ -2,7 +2,7 @@
 layout: classic-docs
 title: What triggers a new email
 categories: [airbrake-faq]
-last_updated: May 11, 2016
+last_updated: April 28, 2017
 description: what triggers a new email
 ---
 
@@ -28,3 +28,8 @@ resolved feature.  You should be able to remove from your immediate view
 anything you believe is dealt with, but have the confidence to know that you'll
 see it again if it's actually not done with, or it comes up again in the future
 because of further changes.
+
+## Error severity
+
+Errors with a [severity](/docs/airbrake-faq/what-is-severity) of `debug`,
+`info`, `notice`, or `warning` will not trigger an email notification.
