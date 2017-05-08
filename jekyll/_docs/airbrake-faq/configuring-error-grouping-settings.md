@@ -77,3 +77,17 @@ component & action|used| - |used|used
 file, line, & column|used| - |used|used
 project id|used|used|used|used
 environment|used|used|used|used
+
+## Using these settings
+To configure an error group to use a custom grouping setting, first identify the
+`error type`:
+
+![find error type](/docs/assets/img/docs/airbrake/grouping_settings_error_type.png)
+
+Then input that error's error type in the grouping list you'd like to use and
+click the "save" button:
+
+![input error type](/docs/assets/img/docs/airbrake/grouping_settings_text_box.png)
+
+Want to input multiple error types? No problem - just separate entries by
+newlines.
