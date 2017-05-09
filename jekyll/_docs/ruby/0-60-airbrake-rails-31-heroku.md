@@ -69,7 +69,7 @@ above. Make a local git repo:
 {% highlight bash %}
 git init
 git add .
-git commit -am "Projet Start"
+git commit -am "Project Start"
 {% endhighlight %}
 
 ### Step 2: Then create the heroku app:
