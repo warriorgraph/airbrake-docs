@@ -21,3 +21,16 @@ just select the "Sign in with GitHub" button from the
 [login page](https://airbrake.io/login) and follow the instructions.
 
 ![github logins sign in page](/docs/assets/img/docs/integrations/github_logins_sign_in_page.png)
+
+## Security options
+Airbrake allows you to require that all users in your Airbrake account use
+GitHub authentication to log in to Airbrake. When this setting is enabled, no
+users in your account will be able to log in using their email and password.
+Instead they will be required to use GitHub authentication to sign in.
+
+This option allows users to take advantage of
+[GitHub's two factor authentication](https://help.github.com/articles/about-two-factor-authentication/)
+to secure their Airbrake accounts.
+
+You can find this option in your
+[account security settings](https://airbrake.io/account/security)
