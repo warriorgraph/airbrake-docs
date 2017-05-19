@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Backtrace links to GitHub
-categories: [airbrake-faq]
+categories: [features]
 last_updated: Sept 27, 2016
 description: backtrace links to GitHub
 ---

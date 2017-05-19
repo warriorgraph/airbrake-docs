@@ -7,7 +7,7 @@ description: deploy tracking troubleshooting
 ---
 
 *For more general information on tracking your application's deploys, Please
-read our [article on deploy tracking](/docs/airbrake-faq/deploy-tracking).*
+read our [article on deploy tracking](/docs/features/deploy-tracking).*
 
 # Deploy Tracking is not resolving errors for your env?
 

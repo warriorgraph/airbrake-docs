@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Deploy tracking
-categories: [airbrake-faq]
+categories: [features]
 last_updated: Apr 28, 2017
 description: deploy tracking
 ---

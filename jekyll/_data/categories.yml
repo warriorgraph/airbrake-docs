@@ -2,6 +2,10 @@
   slug: installing-airbrake
   index: installing-airbrake
 
+- name: "Airbrake features"
+  slug: features
+  index: features
+
 - name: "Ruby"
   slug: ruby
   index: ruby
