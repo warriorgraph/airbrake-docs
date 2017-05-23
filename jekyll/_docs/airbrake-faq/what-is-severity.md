@@ -2,7 +2,6 @@
 layout: classic-docs
 title: What is severity
 categories: [airbrake-faq]
-last_updated: April 28, 2017
 description: what is severity
 ---
 

@@ -2,7 +2,6 @@
 layout: classic-docs
 title: GitHub Enterprise
 categories: [integrations]
-last_updated: August 16, 2016
 description: GitHub Enterprise
 ---
 

@@ -2,7 +2,6 @@
 layout: classic-docs
 title: HipChat
 categories: [integrations]
-last_updated: May 11, 2016
 description: HipChat
 ---
 

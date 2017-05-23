@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Migrate from heroku
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: migrate from heroku
 ---
 

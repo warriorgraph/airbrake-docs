@@ -1,9 +1,7 @@
 ---
 layout: classic-docs
 title: Airbrake, Rails and Heroku
-title: Airbrake, Rails and Heroku
 categories: [ruby]
-last_updated: May 11, 2016
 description: Airbrake, Rails + Heroku
 ---
 

@@ -3,7 +3,6 @@ layout: classic-docs
 title: Installing Airbrake in an Ember application
 short-title: Ember
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Installing Airbrake in an Ember application
 ---
 

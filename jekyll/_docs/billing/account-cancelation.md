@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Account cancellation
 categories: [billing]
-last_updated: May 11, 2016
 description: Account cancellation
 ---
 

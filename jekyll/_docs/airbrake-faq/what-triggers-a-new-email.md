@@ -2,7 +2,6 @@
 layout: classic-docs
 title: What triggers a new email
 categories: [airbrake-faq]
-last_updated: April 28, 2017
 description: what triggers a new email
 ---
 

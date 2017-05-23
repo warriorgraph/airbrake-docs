@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Deploy tracking
 categories: [features]
-last_updated: Apr 28, 2017
 description: deploy tracking
 ---
 

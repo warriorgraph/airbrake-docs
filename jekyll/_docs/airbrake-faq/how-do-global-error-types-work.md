@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Global error grouping
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: Global error grouping
 ---
 

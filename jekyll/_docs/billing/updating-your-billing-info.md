@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Updating your billing info
 categories: [billing]
-last_updated: May 11, 2016
 description: Updating your billing info
 ---
 

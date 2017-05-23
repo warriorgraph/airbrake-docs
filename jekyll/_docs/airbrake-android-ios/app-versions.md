@@ -2,7 +2,6 @@
 layout: classic-docs
 title: App versions
 categories: [airbrake-android-ios]
-last_updated: May 11, 2016
 description: App versions
 ---
 

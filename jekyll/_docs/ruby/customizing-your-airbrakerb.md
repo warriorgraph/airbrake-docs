@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Customizing your airbrake.rb
 categories: [ruby]
-last_updated: May 11, 2016
 description: Customizing your airbrake.rb
 ---
 

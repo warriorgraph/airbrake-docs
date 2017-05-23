@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Update credit card information
 categories: [billing]
-last_updated: May 11, 2016
 description: Update credit card information
 ---
 

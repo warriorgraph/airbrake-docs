@@ -3,7 +3,6 @@ layout: classic-docs
 title: Installing Airbrake in a PHP application
 short-title: PHP
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Installing Airbrake in a PHP application
 ---
 

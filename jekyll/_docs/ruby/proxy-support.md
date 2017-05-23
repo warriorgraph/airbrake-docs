@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Proxy support
 categories: [ruby]
-last_updated: May 11, 2016
 description: Proxy support
 ---
 

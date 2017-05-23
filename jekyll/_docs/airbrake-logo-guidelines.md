@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Airbrake logo guidelines
 categories: [using-airbrake-images]
-last_updated: May 11, 2016
 description: Airbrake logo guidelines
 ---
 

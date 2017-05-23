@@ -3,7 +3,6 @@ layout: classic-docs
 title: Logging Airbrake error ids in Rack or Sinatra
 short-title: Logging error ids in Rack or Sinatra
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Logging Airbrake error ids in Rack or Sinatra
 ---
 

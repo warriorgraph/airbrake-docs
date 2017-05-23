@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Development error tracking
 categories: [ruby]
-last_updated: May 11, 2016
 description: Development error tracking
 ---
 

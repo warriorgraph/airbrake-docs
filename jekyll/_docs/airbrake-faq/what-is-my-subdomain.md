@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Account subdomain
 categories: [airbrake-faq]
-last_updated: Sept 7, 2016
 description: What is my subdomain?
 ---
 

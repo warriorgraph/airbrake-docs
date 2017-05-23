@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Campfire
 categories: [integrations]
-last_updated: May 11, 2016
 description: Campfire
 ---
 

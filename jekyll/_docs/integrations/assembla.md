@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Assembla
 categories: [integrations]
-last_updated: May 11, 2016
 description: Assembla
 ---
 This guide will help you add the Assembla integration to start the automatically

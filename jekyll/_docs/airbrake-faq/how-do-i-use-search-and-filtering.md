@@ -2,7 +2,6 @@
 layout: classic-docs
 title: How do I use search and filtering
 categories: [airbrake-faq]
-last_updated: Oct 24, 2016
 description: how do I use search and filtering
 ---
 ![Search Box](/docs/assets/img/docs/airbrake/search_box.png)
