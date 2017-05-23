@@ -2,7 +2,6 @@
 layout: classic-docs
 title: .NET
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: installing airbrake in a .NET applicaiton
 ---
 

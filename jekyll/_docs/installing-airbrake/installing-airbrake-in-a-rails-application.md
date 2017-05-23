@@ -3,7 +3,6 @@ layout: classic-docs
 title: Installing Airbrake in a Rails application
 short-title: Rails
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Installing Airbrake in a Rails application
 ---
 ![ruby flag](/docs/assets/img/docs/ruby_flag.jpeg)

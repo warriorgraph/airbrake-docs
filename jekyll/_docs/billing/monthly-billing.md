@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Monthly billing
 categories: [billing]
-last_updated: May 11, 2016
 description: Monthly billing
 ---
 

@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Supported Rails versions
 categories: [ruby]
-last_updated: May 11, 2016
 description: Supported Rails versions
 ---
 

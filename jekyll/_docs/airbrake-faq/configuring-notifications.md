@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Configuring notifications
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: configuring notifications
 ---
 

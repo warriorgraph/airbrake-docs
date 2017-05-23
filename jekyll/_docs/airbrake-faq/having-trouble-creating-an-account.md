@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Having trouble creating an account
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description:  having trouble creating an account
 ---
 

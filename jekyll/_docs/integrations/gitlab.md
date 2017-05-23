@@ -2,7 +2,6 @@
 layout: classic-docs
 title: GitLab
 categories: [integrations]
-last_updated: August 2, 2016
 description: GitLab
 ---
 

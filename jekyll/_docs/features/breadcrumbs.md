@@ -3,7 +3,6 @@ layout: classic-docs
 title: Breadcrumbs for JavaScript
 short-title: Breadcrumbs
 categories: [features]
-last_updated: May 9, 2017
 description: Breadcrumbs for JavaScript projects
 ---
 

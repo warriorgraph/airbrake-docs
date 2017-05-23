@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Bitbucket
 categories: [integrations]
-last_updated: May 11, 2016
 description: Bitbucket
 ---
 Adding the Airbrake-Bitbucket integration will create Bitbucket issues for new

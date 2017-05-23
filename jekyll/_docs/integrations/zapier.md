@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Zapier
 categories: [integrations]
-last_updated: Aug 02, 2016
 description: Zapier
 ---
 

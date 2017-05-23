@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Slack
 categories: [integrations]
-last_updated: May 11, 2016
 description: Slack
 ---
 

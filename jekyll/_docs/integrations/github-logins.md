@@ -2,7 +2,6 @@
 layout: classic-docs
 title: GitHub logins
 categories: [integrations]
-last_updated: May 8, 2017
 description: GitHub Logins
 ---
 

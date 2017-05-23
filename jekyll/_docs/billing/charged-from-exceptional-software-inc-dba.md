@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Charged from exceptional software inc dba
 categories: [billing]
-last_updated: May 11, 2016
 description: Charged from exceptional software inc dba
 ---
 

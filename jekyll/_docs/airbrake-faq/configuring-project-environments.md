@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Configuring project environments
 categories: [airbrake-faq]
-last_updated: Sept 29, 2016
 description: configuring project environments
 ---
 

@@ -2,7 +2,6 @@
 layout: classic-docs
 title: What is a rate limit
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: what is a rate limit
 ---
 

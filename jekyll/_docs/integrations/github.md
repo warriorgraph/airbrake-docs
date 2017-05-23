@@ -2,7 +2,6 @@
 layout: classic-docs
 title: GitHub
 categories: [integrations]
-last_updated: May 11, 2016
 description: GitHub
 ---
 

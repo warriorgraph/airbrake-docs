@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Environment Name Truncation
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: environment name truncation
 ---
 

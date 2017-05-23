@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Alternate plugins using the retired V1 API
 categories: [alternate-airbrake-plugins]
-last_updated: May 11, 2016
 description: Alternate plugins using the retired V1 API
 ---
 

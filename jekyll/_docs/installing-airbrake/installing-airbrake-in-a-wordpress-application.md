@@ -3,7 +3,6 @@ layout: classic-docs
 title: Installing Airbrake in a Wordpress Application
 short-title: WordPress
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Installing Airbrake in a Wordpress Application
 ---
 

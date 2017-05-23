@@ -2,7 +2,6 @@
 layout: classic-docs
 title: When is data removed from Airbrake
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: when is data removed from Airbrake
 ---
 

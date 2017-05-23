@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Error reduction in very large groups
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: error reduction in very large groups
 ---
 ![high occurrence warning](/docs/assets/img/docs/airbrake/high_occurrence_warning.png)

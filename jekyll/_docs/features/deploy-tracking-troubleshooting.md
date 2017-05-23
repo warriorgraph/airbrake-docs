@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Deploy tracking troubleshooting
 categories: [airbrake-faq]
-last_updated: May 11, 2016
 description: deploy tracking troubleshooting
 ---
 

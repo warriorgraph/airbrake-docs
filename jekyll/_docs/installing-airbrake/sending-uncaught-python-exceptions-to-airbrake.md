@@ -3,7 +3,6 @@ layout: classic-docs
 title: Sending uncaught Python exceptions to Airbrake
 short-title: Uncaught Python exceptions
 categories: [installing-airbrake]
-last_updated: May 11, 2016
 description: Sending uncaught Python exceptions to Airbrake
 ---
 

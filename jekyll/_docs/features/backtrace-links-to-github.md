@@ -2,7 +2,6 @@
 layout: classic-docs
 title: Backtrace links to GitHub
 categories: [features]
-last_updated: Sept 27, 2016
 description: backtrace links to GitHub
 ---
 
