@@ -36,6 +36,7 @@ Advanced filtering options allow for further narrowing of results. These options
 - **Muted**: Shows all muted/unmuted errors
 - **Hostname**: The hostname associated with the error
 - **RemoteAddr**: The remote address where the error occurred
+- **User**: The user that was signed in when the error occurred
 
 *Note: You'll only see an option to filter if you are sending the data. E.g. If you don't have [Deployment Tracking](/docs/deploy-tracking) set up, you won't see the filter by deploy option.*
 
