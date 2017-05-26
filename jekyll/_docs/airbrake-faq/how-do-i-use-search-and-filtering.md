@@ -4,13 +4,13 @@ title: How do I use search and filtering
 categories: [airbrake-faq]
 description: how do I use search and filtering
 ---
-![Search Box](/docs/assets/img/docs/airbrake/search_box.png)
+<img width="500px" src="/docs/assets/img/docs/airbrake/search_box.png" alt="Search Box">
 
 Search and filtering are available in one easy-to-use search box. Switch between "Resolved" and "Unresolved" errors, search, and filter all in one place.
 
 ## Search Input
 
-![Search Input](/docs/assets/img/docs/airbrake/search_input.png)
+<img width="500px" src="/docs/assets/img/docs/airbrake/search_input.png" alt="Search Input">
 
 Start typing in the search box and see your results update in real-time. The input at the top of your error list supports text searches for:
 
@@ -50,7 +50,7 @@ After the custom aggregation has been processed, you will be able to filter erro
 <img width="500px" src="/docs/assets/img/docs/airbrake/filter_custom_attribute.png" alt="Filter Custom Attributes">
 
 ## Sort by options
-![sort by options](/docs/assets/img/docs/airbrake/sort_options.png)
+<img width="500px" src="/docs/assets/img/docs/airbrake/sort_options.png" alt="Sort Options">
 
 Sort by options include:
 
