@@ -9,8 +9,7 @@ description: Using the Airbrake mobile web app
 
 Get all the great error monitoring features of Airbrake on your smartphone.
 There's no need to download an app from the app store because the Airbrake site
-you access through your desktop browser is also optimized for smartphone
-browsers.
+is optimized for smartphone browsers.
 
 ### Add Airbrake to your phone's home screen
 
