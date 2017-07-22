@@ -27,25 +27,25 @@ from your project's settings page.
 package main
 
 import (
-    "errors"
+	"errors"
 
-    "gopkg.in/airbrake/gobrake.v2"
+	"gopkg.in/airbrake/gobrake.v2"
 )
 
 var airbrake = gobrake.NewNotifier(<Your project ID>, "<Your project API KEY>")
 
 func init() {
-    airbrake.AddFilter(func(notice *gobrake.Notice) *gobrake.Notice {
-        notice.Context["environment"] = "production"
-        return notice
-    })
+	airbrake.AddFilter(func(notice *gobrake.Notice) *gobrake.Notice {
+		notice.Context["environment"] = "production"
+		return notice
+	})
 }
 
 func main() {
-    defer airbrake.Close()
-    defer airbrake.NotifyOnPanic()
+	defer airbrake.Close()
+	defer airbrake.NotifyOnPanic()
 
-    airbrake.Notify(errors.New("operation failed"), nil)
+	airbrake.Notify(errors.New("operation failed"), nil)
 }
 ```
 
