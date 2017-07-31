@@ -44,10 +44,7 @@ if __name__ == '__main__':
 
     logging.debug('About to do f().')
 
-    try:
-        f()
-    except:
-        pass
+    f()
 {% endhighlight %}
 
 Having trouble? Email us at [support@airbrake.io](mailto:support@airbrake.io)
