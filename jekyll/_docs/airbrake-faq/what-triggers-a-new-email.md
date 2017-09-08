@@ -33,11 +33,11 @@ because of further changes.
 Errors with a [severity](/docs/airbrake-faq/what-is-severity) of `debug`,
 `info`, `notice`, or `warning` will not trigger an email notification.
 
-## High volume warnings
+## High volume notifications
 
-If you have enabled high volume warnings for your project you will be
+If you have enabled high volume notifications for your project you will be
 re-notified when an error's occurrences reach 10k, 100k, 200k, 300k, etc.
-High volume warnings can be enabled per project on your [user
-profile](https://airbrake.io/users/edit). High volume warnings help you keep
+High volume notifications can be enabled per project on your [user
+profile](https://airbrake.io/users/edit). High volume notifications help you keep
 tabs on which errors occur most in your project, and depending on frequency
 can be a useful indicator for larger issues.
