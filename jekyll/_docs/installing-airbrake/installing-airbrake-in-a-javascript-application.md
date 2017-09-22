@@ -15,8 +15,18 @@ description: Installing Airbrake in a Javascript application
 - [Add custom parameters](https://github.com/airbrake/airbrake-js#filtering-errors) to your errors for more context
 - [Source map support](https://github.com/airbrake/airbrake-js#source-map)
 - Control which errors you send with customizable filtering options
-- Works well with all frameworks
-- Support for the [Backbone.js library](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
+- Support for:
+  - [AngularJS](https://github.com/airbrake/airbrake-js/tree/master/examples/angular)
+  - [Angular 2](https://github.com/airbrake/airbrake-js/tree/master/examples/angular-2)
+  - [Backbone.js](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
+  - [Bower](https://github.com/airbrake/airbrake-js/tree/master/examples/bower-wiredep)
+  - [Browserify](https://github.com/airbrake/airbrake-js/tree/master/examples/browserify)
+  - [Express.js](https://github.com/airbrake/airbrake-js/tree/master/examples/express)
+  - [hapi.js](https://github.com/airbrake/airbrake-js/tree/master/examples/hapi)
+  - [Legacy](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy)
+  - [Rails](https://github.com/airbrake/airbrake-js/tree/master/examples/rails)
+  - [React](https://github.com/airbrake/airbrake-js/tree/master/examples/react)
+  - [RequireJS](https://github.com/airbrake/airbrake-js/tree/master/examples/requirejs)
 
 ## Installation
 
