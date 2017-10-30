@@ -128,9 +128,35 @@ rake airbrake:deploy RAILS_ENV=development TO=development
 
 ### Capistrano
 
-If you use capistrano, you shouldn't have to run the rake command by hand.  The
-Airbrake notifier also includes a capistrano recipe that runs after
+If you use Capistrano, you shouldn't have to run the rake command by hand. The
+Airbrake notifier also includes a Capistrano recipe that runs after
 `deploy:cleanup` which automatically triggers that rake task.
+
+In order to configure deploy tracking with Capistrano simply `require` our
+integration in your Capfile:
+
+```ruby
+# Capfile
+require 'airbrake/capistrano'
+```
+
+If you use Capistrano 3, define the `after :finished` hook, which executes the
+deploy notification task (Capistrano 2 doesn't require this step).
+
+```ruby
+# config/deploy.rb
+namespace :deploy do
+  after :finished, 'airbrake:deploy'
+end
+```
+
+If you version your application, you can set the `:app_version` variable in
+`config/deploy.rb`, so that information will be attached to your deploy.
+
+```ruby
+# config/deploy.rb
+set :app_version, '1.2.3'
+```
 
 ## Deploy tracking on Heroku
 
