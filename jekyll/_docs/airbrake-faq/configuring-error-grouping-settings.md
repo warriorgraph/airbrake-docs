@@ -11,8 +11,8 @@ The following attributes are used to calculate the hash:
 
 - error type
 - component and action
-- file, line and column
-- project id
+- function
+- file
 - environment
 
 ## Custom grouping
@@ -23,7 +23,7 @@ are configured per project from the projects's settings page.
 *Create Error Groups by error type, don't use default grouping rules*
 
 Errors added to global grouping will be grouped together by **error type**,
-differences in error message, component and action, and file/line/column will
+differences in error message, component and action, function, and file will
 not create new groups.
 
 **e.g.** errors with the same **Error type**, and unique values for everything else will be grouped together.
@@ -31,7 +31,6 @@ not create new groups.
 Global grouping compares hashes based on:
 
 - **error type**
-- project id
 - environment
 
 ### Distinct grouping
@@ -63,8 +62,6 @@ Strict grouping compares hashes based on:
 - **backtrace**
 - [default grouping rules](#default-grouping)
 
-
-
 ## Table of grouping rules
 
 ---|default|global|distinct|strict
@@ -73,8 +70,8 @@ error type|used|used|used|used
 backtrace| - | - | - |used
 error message| - | - |used| -
 component & action|used| - |used|used
-file, line, & column|used| - |used|used
-project id|used|used|used|used
+function|used| - |used|used
+file |used| - |used|used
 environment|used|used|used|used
 
 ## Using these settings
