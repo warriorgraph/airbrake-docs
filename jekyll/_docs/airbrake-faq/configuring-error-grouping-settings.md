@@ -15,6 +15,15 @@ The following attributes are used to calculate the hash:
 - file
 - environment
 
+### Line shifts
+
+**Line shifts**: When code changes cause an error to occur on a different line in
+the file, Airbrake will place the error into the existing error group.
+
+This is a common occurrence and handling line shifts as part of error grouping
+avoids creating duplicate errors and notifications, keeping your error dashboard
+clean and focused.
+
 ## Custom grouping
 There are a few exceptions where Airbrake uses different data for the hash, these
 are configured per project from the projects's settings page.
