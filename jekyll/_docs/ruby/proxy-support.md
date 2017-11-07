@@ -16,13 +16,13 @@ options in the initializer
 
 ### Configuring Airbrake V5 to use a proxy
 
-{% highlight ruby %}
+```ruby
 Airbrake.configure do |c|
   c.proxy = {
-    host: 'example.com'
-    port: 8080
-    user: 'user'
+    host: 'example.com',
+    port: 8080,
+    user: 'user',
     password: 'p4ssw0rd'
   }
 end
-{% endhighlight %}
+```
