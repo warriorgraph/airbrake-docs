@@ -13,7 +13,7 @@ description: Installing Airbrake in a Javascript application
 - Easy and flexible installation options including NPM, Bower and a public CDN
 - Send uncaught errors to Airbrake or manually using a try/catch
 - [Add custom parameters](https://github.com/airbrake/airbrake-js#filtering-errors) to your errors for more context
-- [Source map support](https://github.com/airbrake/airbrake-js#source-map)
+- [Private sourcemap support](/docs/installing-airbrake/private-sourcemaps)
 - Control which errors you send with customizable filtering options
 - Support for:
   - [AngularJS](https://github.com/airbrake/airbrake-js/tree/master/examples/angular)
