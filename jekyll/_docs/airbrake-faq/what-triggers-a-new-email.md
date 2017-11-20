@@ -28,6 +28,10 @@ anything you believe is dealt with, but have the confidence to know that you'll
 see it again if it's actually not done with, or it comes up again in the future
 because of further changes.
 
+To cut down on noise, Airbrake will not send you a new email notification for
+an error if you have already received an email for that error less than one
+minute ago.
+
 ## Error severity
 
 Errors with a [severity](/docs/airbrake-faq/what-is-severity) of `debug`,
