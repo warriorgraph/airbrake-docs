@@ -9,7 +9,7 @@ you'll see buttons you can use to either delete the error or mute the error.
 
 ![delete and mute buttons](/docs/assets/img/docs/airbrake/mute-delete-buttons.png)
 
-- Deleting an error will permantly remove that error. Deleted errors can not be
+- Deleting an error will permanently remove that error. Deleted errors can not be
 recovered. If you receive a new occurrence of a deleted error, it will create a 
 new error group and you will be notified.
 - Muting an error will prevent notifcations from being received for that error
