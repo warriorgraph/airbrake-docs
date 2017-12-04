@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Logging Airbrake error ids in Rack or Sinatra
 short-title: Logging error ids in Rack or Sinatra
-categories: [installing-airbrake]
+categories: [ruby]
 description: Logging Airbrake error ids in Rack or Sinatra
 ---
 
