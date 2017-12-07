@@ -94,5 +94,8 @@ click the "save" button:
 
 ![input error type](/docs/assets/img/docs/airbrake/grouping_settings_text_box.png)
 
+*__Note:__ changing grouping settings is not retroactive. ie: existing errors
+will not be regrouped.*
+
 Want to input multiple error types? No problem - just separate entries by
 newlines.
