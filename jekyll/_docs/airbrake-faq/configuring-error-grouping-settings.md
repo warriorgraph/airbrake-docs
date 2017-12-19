@@ -10,10 +10,12 @@ Airbrake calculates a hash for each error and groups errors with same hash toget
 The following attributes are used to calculate the hash:
 
 - error type
-- component and action
+- error message with data fields extracted (see structured logging)
 - function
 - file
+- line
 - environment
+- component and action
 
 ### Line shifts
 
@@ -42,21 +44,6 @@ Global grouping compares hashes based on:
 - **error type**
 - environment
 
-### Distinct grouping
-*Create error groups by unique message*
-
-Error types added to distinct grouping will be grouped with the same rules as
-default as well as by **error message**
-
-**e.g.**
-two errors that are exactly the same except for their **error message** will now
-create 2 groups instead of ending up in the same group
-
-Distinct grouping compares hashes based on:
-
-- **error message**
-- [default grouping rules](#default-grouping)
-
 ### Strict grouping
 *Create error groups by unique backtrace*
 
@@ -73,15 +60,15 @@ Strict grouping compares hashes based on:
 
 ## Table of grouping rules
 
----|default|global|distinct|strict
----|---|---|---|---
-error type|used|used|used|used
-backtrace| - | - | - |used
-error message| - | - |used| -
-component & action|used| - |used|used
-function|used| - |used|used
-file |used| - |used|used
-environment|used|used|used|used
+---|default|global|strict
+---|---|---|---
+error type|used|used|used
+backtrace| - | - |used
+error message| used | - | -
+component & action|used| - |used
+function|used| - |used
+file |used| - |used
+environment|used|used|used
 
 ## Using these settings
 To configure an error group to use a custom grouping setting, first identify the
