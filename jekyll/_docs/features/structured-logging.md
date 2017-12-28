@@ -6,6 +6,7 @@ description: Sending structured text data
 ---
 
 To improve grouping and aggregation of errors it is strictly advised to use machine readable format in error messages. Airbrake supports 2 main formats:
+
 - JSON appearing anywhere in error message, for example `User not found {"id":123,"email":"support@airbrake.io"}`.
 - `key=value` pairs, for example `User not found id=123 email="support@airbrake.io"`.
 
