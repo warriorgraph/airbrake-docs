@@ -12,10 +12,10 @@ error entirely, or just another occurrence of an error we've previously seen.
 We currently review...
 
 - The error class of the error
+- The error message of the error with data values extracted
+(see [structured logging](/docs/features/structured-logging))
 - The file in which the error occurred
 - The line number at which the error occurred
-- The action that was running when the error occurred
-- The controller that the action is in
 - The RAILS_ENV that was set when the error occurred
 
 ## Resolved notices

@@ -10,12 +10,12 @@ Airbrake calculates a hash for each error and groups errors with same hash toget
 The following attributes are used to calculate the hash:
 
 - error type
-- error message with data fields extracted (see structured logging)
+- error message with data fields extracted
+(see [structured logging](/docs/features/structured-logging))
 - function
 - file
 - line
 - environment
-- component and action
 
 ### Line shifts
 
@@ -65,7 +65,6 @@ Strict grouping compares hashes based on:
 error type|used|used|used
 backtrace| - | - |used
 error message| used | - | -
-component & action|used| - |used
 function|used| - |used
 file |used| - |used
 environment|used|used|used
