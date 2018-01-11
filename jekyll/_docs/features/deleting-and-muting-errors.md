@@ -13,7 +13,7 @@ you'll see buttons you can use to either delete the error or mute the error.
 - Deleting an error will permanently remove that error. Deleted errors can not be
 recovered. If you receive a new occurrence of a deleted error, it will create a
 new error group and you will be notified.
-- Muting an error will prevent notifcations from being received for that error
+- Muting an error will prevent notifications from being sent for that error
 but the error will be visible on your dashboard and marked as muted. Muted
 errors can be unmuted.
 
