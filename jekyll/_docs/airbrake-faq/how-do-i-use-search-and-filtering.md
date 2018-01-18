@@ -25,6 +25,8 @@ Start typing in the search box and see your results update in real-time. The inp
 
 Advanced filtering options allow for further narrowing of results. These options are shown as suggestions beneath the search input and will autocomplete as you type.
 
+Advanced filtering is available for on [all paid plans](https://airbrake.io/pricing).
+
 - **Environment**: e.g. Production, Staging, QA, etc.
 - **Component**: The controller the error occurred in
 - **Action**: The controller method the error occurred in
@@ -43,6 +45,8 @@ Advanced filtering options allow for further narrowing of results. These options
 ## Filtering by Custom Attributes
 
 To filter by additional attributes not present in the standard options, first visit the "Aggregations" tab for one of your errors. Next, select an attribute from the "More aggregations" dropdown. Finally, click the "Pin aggregation for all errors & project search" button to enable search capabilities on this attribute.
+
+Custom filtering is available on the [Business plan and above](https://airbrake.io/account/plan/edit).
 
 <img width="500px" src="/docs/assets/img/docs/airbrake/pin_aggregation_for_all.png" alt="Pin Aggregation for All">
 

@@ -12,6 +12,8 @@ occurrence. Things like web requests, user interactions like clicks or keyboard
 presses, and navigation updates are all recorded and organized in a timeline so
 you can understand what actually happened when an error occurred.
 
+Breadcrumbs are available on [all paid plans](https://airbrake.io/pricing).
+
 ### Events that are logged as Breadcrumbs
 
 * Log events with severity

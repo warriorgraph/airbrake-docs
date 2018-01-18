@@ -28,12 +28,16 @@ You can view an error's Aggregations by clicking the "Aggregations" tab to the
 right of the "Occurrences" tab. Note: the Aggregations tab is only available
 when there's more than one occurrence of an error.
 
+Aggregations are available on [all paid plans](https://airbrake.io/pricing).
+
 ## Custom Aggregations
 
 Along with the automatic Aggregations Airbrake makes for you, you can add any
 error parameter to be aggregated. To do this, just select the parameter you
 want from the drop down menu in the "More aggregations" section of the
 Aggregations tab.
+
+Custom Aggregations are available on the [Business plan and above](https://airbrake.io/account/plan/edit).
 
 ### Select a custom aggregation
 
