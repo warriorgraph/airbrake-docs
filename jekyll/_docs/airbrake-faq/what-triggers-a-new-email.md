@@ -45,3 +45,5 @@ High volume notifications can be enabled per project on your [user
 profile](https://airbrake.io/users/edit). High volume notifications help you keep
 tabs on which errors occur most in your project, and depending on frequency
 can be a useful indicator for larger issues.
+
+High volume notifications are available on the [Business plan and above](https://airbrake.io/account/plan/edit).

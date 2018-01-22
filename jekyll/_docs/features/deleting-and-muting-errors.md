@@ -8,6 +8,8 @@ description: how to delete and mute errors
 Errors can be deleted or muted through the Airbrake UI. In each error overview
 you'll see buttons you can use to either delete the error or mute the error.
 
+Error muting is available on [all paid plans](https://airbrake.io/pricing).
+
 ![delete and mute buttons](/docs/assets/img/docs/features/mute-delete-buttons.png)
 
 - Deleting an error will permanently remove that error. Deleted errors can not be
