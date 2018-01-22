@@ -6,6 +6,7 @@ description: what is a rate limit
 ---
 
 ## Monthly error quota
+
 Your plan's monthly error quota determines the number of errors that can be sent
 to your Airbrake account within a billing period. Having a monthly error quota
 gives you more freedom in how errors are collected for your apps. In the event
