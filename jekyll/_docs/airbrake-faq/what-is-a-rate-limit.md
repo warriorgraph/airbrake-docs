@@ -36,10 +36,24 @@ errors until you [upgrade your plan](https://airbrake.io/billing/edit) or the
 next billing cycle starts. Upgrading your plan will increase your current
 monthly error quota and errors will be accepted again immediately.
 
-### Configuring Max Errors per Minute
-Setting a max errors per minute controls how many errors will be accepted each
-minute for your account. Any account admin can configure the max errors per
-minute from the [account settings](https://airbrake.io/account/error-quota) page.
+### Configuring max errors per minute
+Setting a rate limit controls how many errors will be accepted each minute for
+your account. Errors reported that exceed your configured rate limit will be
+discarded.
+
+For example, if you set your rate limit to 100 errors/min, then you report 120
+errors at 12:03 pm, the first 100 errors would be accepted and the last 20
+errors would be discarded. Your account would start accepting new errors at
+12:04 pm.
+
+You can set your rate limit to any value. If you only want to protect against
+using too much of your error quota during a large, unexpected spike, then you
+might want to use a high value (eg: in the thousands) for a rate limit. If you
+want to maximize preserving your error quota through out the month, then you
+might want to use a lower value.
+
+Any account admin can configure the max errors per minute from the
+[account settings](https://airbrake.io/account/error-quota) page.
 
 ## Per minute rate limits
 
