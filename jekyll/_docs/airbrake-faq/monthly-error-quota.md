@@ -6,8 +6,9 @@ description: Monthly error quota
 ---
 
 > **Note:** If your [current plan](https://airbrake.io/account/error-quota)
-> does not display the number of errors per month, your plan uses a [per minute
-> rate limit](/docs/airbrake-faq/per-minute-rate-limits/) and this section does not apply to your plan.
+> does not display the number of errors per month, your plan uses a
+> [rate limit](/docs/airbrake-faq/what-is-a-rate-limit/) and this section does
+> not apply to your plan.
 
 Your plan's monthly error quota determines the number of errors that can be sent
 to your Airbrake account within a billing period. Having a monthly error quota
@@ -43,7 +44,7 @@ errors until you [upgrade your plan](https://airbrake.io/billing/edit) or the
 next billing cycle starts. Upgrading your plan will increase your current
 monthly error quota and errors will be accepted again immediately.
 
-### Configuring max errors per minute
+### Setting a rate limit
 Setting a rate limit controls how many errors will be accepted each minute for
 your account. Errors reported that exceed your configured rate limit will be
 discarded.
