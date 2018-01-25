@@ -5,8 +5,9 @@ categories: [airbrake-faq]
 description: rejected errors
 ---
 
-> Note: Rejected errors are different from [error loss due to surpassing your
-rate limit](/docs/airbrake-faq/what-is-a-rate-limit).
+> Note: Rejected errors are different from error loss due to depleting your
+> [monthly quota](/docs/airbrake-faq/monthly-error-quota) or exceeding your
+> [per minute rate limit](/docs/airbrake-faq/per-minute-rate-limits).
 
 ## Invalid format
 The error notice is rejected if it is sent with incorrect JSON/XML as determined
