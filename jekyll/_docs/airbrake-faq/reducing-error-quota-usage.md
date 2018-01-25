@@ -78,10 +78,10 @@ airbrake.AddFilter(notice =>
 
 ### Accept only a portion of noisy errors
 
-Once you have identified the noisy errors that are depleting this config code
-will accept only a sample of the occurrences.  This example is for our ruby
-notifier but you can use this strategy for any notifier that supports the
-add_filter configuration option.
+Once you have identified the noisy errors that are depleting your quota, this
+config code will accept only a sample of the occurrences. This example is for
+our ruby notifier but you can use this strategy for any notifier that supports
+the add_filter configuration option.
 
 ```ruby
 noisy_errors = [Resque::TermException, NoMethodError, Redis::CannotConnectError]
