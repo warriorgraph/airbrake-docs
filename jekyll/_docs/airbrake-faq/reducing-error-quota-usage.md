@@ -9,7 +9,7 @@ If your applications are sending more errors than your plan allows, this can
 result in error loss and reduced debugging effectiveness. There are several
 options to reduce your error quota usage.
 
-### Configuring a per minute rate limit
+### Setting a rate limit
 
 All monthly quota plans support configuring a per minute rate limit. This value
 controls how many errors will be accepted each minute for your account. Any
