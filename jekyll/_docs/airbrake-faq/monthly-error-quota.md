@@ -11,22 +11,8 @@ description: Monthly error quota
 > not apply to your plan.
 
 Your plan's monthly error quota determines the number of errors that can be sent
-to your Airbrake account within a billing period. Having a monthly error quota
-gives you more freedom in how errors are collected for your apps. In the event
-of an unexpected spike in errors, more errors will be accepted giving you a
-fuller picture of the issue and decreasing debugging time. Your monthly error
+to your Airbrake account within a billing period. Your monthly error
 quota is refilled at the beginning of each new billing period.
-
-### Spike coverage
-When a bad deploy or service outage causes a large spike in error volume,
-Airbrake has you covered. The monthly error quota allows us to accept more
-errors during the spike, collecting all the information needed to provide a
-complete view of the problem and solve it quickly.
-
-### Accept more errors
-Applications don’t report errors at a uniform rate. It’s common for error volume
-to vary greatly each day and hour. The monthly error quota sets up a large time
-frame that can accommodate different error volumes for any period of time.
 
 ### Usage alerts
 Airbrake will automatically notify you when your monthly error quota reaches
@@ -62,3 +48,8 @@ might want to use a lower value.
 
 Any account admin can configure the max errors per minute from the
 [account settings](https://airbrake.io/account/error-quota) page.
+
+### Why monthly error quota?
+Our [blog post](https://airbrake.io/blog/airbrake-news/get-more-flexibility-with-monthly-error-quotas)
+outlines the benefits a monthly error quota has over a rate limit that resets
+each minute.
