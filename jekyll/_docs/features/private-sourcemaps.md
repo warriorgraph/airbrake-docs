@@ -8,8 +8,10 @@ description: Private sourcemaps
 
 ![](http://f.cl.ly/items/443E2J1D2W3x1E1u3j1u/JS-airbrakeman.jpg)
 
-**Private sourcemaps are a premium feature available on the Business Plus and
-Enterprise plans.**
+**Private sourcemaps are an Advanced feature available on the Business plan and
+above.**
+[Public sourcemaps](https://github.com/airbrake/airbrake-js#source-map)
+are available for all other paid plans.
 
 This guide assumes you have already [installed Airbrake in your JavaScript
 app](/docs/installing-airbrake/installing-airbrake-in-a-javascript-application).
