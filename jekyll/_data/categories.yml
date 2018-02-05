@@ -29,3 +29,7 @@
 - name: "Billing"
   slug: billing
   index: billing
+
+- name: "On Premise"
+  slug: on-premise
+  index: on-premise
