@@ -4,6 +4,10 @@ title: Bitbucket
 categories: [integrations]
 description: Bitbucket
 ---
+> **NOTE:** This doc is only for our cloud service. [See Bitbucket
+> integration doc for on-premise
+> installations](/docs/on-premise/bitbucket-integration).
+
 Adding the Airbrake-Bitbucket integration will create Bitbucket issues for new
 Airbrake errors.
 The default behaviour is to automatically create a Bitbucket issue when a new
