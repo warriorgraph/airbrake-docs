@@ -6,7 +6,7 @@ categories: [installing-airbrake]
 description: installing airbrake in a Magento app
 ---
 
-![PHPBrake](http://f.cl.ly/items/0e2f2R2I0i081N2w3R0a/php.jpg)
+![PHPBrake](https://s3.amazonaws.com/document-resources/phpbrakeman.png)
 
 ### Features
 * Simple to install and configure

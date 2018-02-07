@@ -6,7 +6,7 @@ categories: [features]
 description: Private sourcemaps
 ---
 
-![](http://f.cl.ly/items/443E2J1D2W3x1E1u3j1u/JS-airbrakeman.jpg)
+![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
 
 **Private sourcemaps are an Advanced feature available on the Business plan and
 above.**
