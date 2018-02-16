@@ -6,7 +6,7 @@ categories: [installing-airbrake]
 description: Installing Airbrake in a PHP application
 ---
 
-![PHPBrake](http://f.cl.ly/items/0e2f2R2I0i081N2w3R0a/php.jpg)
+![PHPBrake](https://s3.amazonaws.com/document-resources/phpbrakeman.png)
 
 ## Features
 [PHPBrake](https://github.com/airbrake/phpbrake) is the official Airbrake PHP notifier.
