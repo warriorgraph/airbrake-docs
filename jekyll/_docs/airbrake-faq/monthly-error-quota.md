@@ -23,10 +23,10 @@ and need to take action.
 ### Running out of errors
 If you suspect you will run out of errors before your monthly quota is refilled,
 we recommend [reducing your error quota usage](/docs/airbrake-faq/reducing-error-quota-usage/) or
-[upgrading to increase your quota](https://airbrake.io/billing/edit).
+[upgrading to increase your quota](https://airbrake.io/account/plan/edit).
 
 If you completely deplete your monthly error quota, Airbrake will stop accepting
-errors until you [upgrade your plan](https://airbrake.io/billing/edit) or the
+errors until you [upgrade your plan](https://airbrake.io/account/plan/edit) or the
 next billing cycle starts. Upgrading your plan will increase your current
 monthly error quota and errors will be accepted again immediately.
 
