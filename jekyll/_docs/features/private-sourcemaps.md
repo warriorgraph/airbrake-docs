@@ -81,9 +81,9 @@ For your private sourcemap upload to function correctly it's important you check
 
 We also support public sourcemaps please visit our [official airbrake-js repo](https://github.com/airbrake/airbrake-js#source-map) for more info.
 
-#### Private sourcemap size
+#### Sourcemap file size limit
 
-Private sourcemaps have a file size limit of 4MB. Sourcemaps greater than 4MB will return a 400
+Public and private sourcemaps have a file size limit of 4MB. Sourcemaps greater than 4MB will return a 400
 
 ```
 {"code":400,"type":"Bad Request","message":"http: request body too large"}
