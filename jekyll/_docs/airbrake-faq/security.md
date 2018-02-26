@@ -28,3 +28,15 @@ Airbrake is currently in the process of implementing
 - [SOC 2 audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) (Q1 2018)
 - Data Protection Agreement (Q1 2018)
 - [GDPR](https://gdpr-info.eu/) compliance (Q1 2018)
+
+## Vulnerability or security disclosure
+
+If you would like to report a vulnerability, security issue or have other security related conerns about an Airbrake product please contact <a href="mailto:security@airbrake.io">security@airbrake.io</a>.
+
+If you are disclosing a vulnerability please provide
+
+- a summary of the vulnerability
+- a proof of concept
+- a list of tools used
+- the output from the tools used
+- the commands used to execute the tools
