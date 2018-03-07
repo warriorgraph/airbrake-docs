@@ -22,12 +22,11 @@ For paid plans Airbrake integrates with GitHub to provide 2FA. By enabling 2FA o
 your GitHub organization you help secure your Airbrake account with 2FA.
 
 ## Does Airbrake maintain any certifications, attestation, or complaince?
-Airbrake is currently in the process of implementing
+Airbrake has [certified it's compliance](https://www.privacyshield.gov/participant?id=a2zt0000000TTiJAAW) with the EU-U.S. and Swiss-U.S [Privacy Shield](https://www.privacyshield.gov) as set forth by the U.S. Department of commerce.
 
-- [Privacy Shield](https://www.privacyshield.gov/) certification (Q1 2018) 
-- [SOC 2 audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) (Q1 2018)
-- Data Protection Agreement (Q1 2018)
-- [GDPR](https://gdpr-info.eu/) compliance (Q1 2018)
+Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacintg <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
+
+Airbrake is currently preparing for a [SOC 2 Type 2 Audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html).
 
 ## Vulnerability or security disclosure
 
