@@ -9,6 +9,9 @@ description: Airbrake Security and Compliance
 Communication between customers and Airbrake is by default sent securely 
 via TLS. 
 
+Airbrake currently supports TLS protocols v1.0, v1.1 and v1.2 with a planned
+deprecation for TLSv1.0 and TLSv1.1 on June 30, 2018.
+
 ## Is data encrypted at rest?
 All Airbrake customer data is stored encrypted at rest. This includes backups.
 
@@ -27,6 +30,11 @@ Airbrake has [certified it's compliance](https://www.privacyshield.gov/participa
 Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacintg <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
 
 Airbrake is currently preparing for a [SOC 2 Type 2 Audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html).
+
+## What about PCI DSS?
+Airbrake's payment and card information is handled by [Stripe](https://stripe.com/docs/security) a certified [PCI Level 1 Service Provider](http://www.visa.com/splisting/searchGrsp.do?companyNameCriteria=stripe,%20inc). Stripe has been audited by an independent PCI Qualified Security Assessor (QSA) and is certified PCI DSS compliant.
+
+When accepting payments Airbrake does so in a PCI compliant manner. Our PCI SAQ is available by <a href="mailto:support@airbrake.io?subject=PCI SAQ">contacting support<a/>.
 
 ## Vulnerability or security disclosure
 
