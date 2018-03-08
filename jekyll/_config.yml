@@ -22,7 +22,7 @@ collections:
 twitter_username: airbrake
 github_username:  airbrake
 
-gems:
+plugins:
   - jekyll-bootstrap-sass
 
 bootstrap:
