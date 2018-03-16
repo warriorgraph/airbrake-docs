@@ -37,7 +37,7 @@ automatically. **This option is only available to admins on the account**
 ## Modify your notification settings
 
 ### Open the **upper right dropdown** under your user name and click **profile & notifications**
-Or click [https://airbrake.io/users/edit](https://airbrake.io/users/edit) to be
+Or click [https://airbrake.io/users/notifications](https://airbrake.io/users/notifications) to be
 taken to your Profile & Notifications settings.
 
 ![airbrake dropdown profile & notifications](/docs/assets/img/docs/airbrake/dropdown_profile_and_notifications.png)
