@@ -16,7 +16,7 @@ description: Installing Airbrake in a Javascript application
 - [Private sourcemap support](/docs/installing-airbrake/private-sourcemaps)
 - Control which errors you send with customizable filtering options
 - Support for:
-  - [AngularJS](/docs/installing-airbrake/installing-airbrake-in-an-angular-js-app/)
+  - [AngularJS](/docs/installing-airbrake/installing-airbrake-in-an-angularjs-app/)
   - [Angular 2](https://github.com/airbrake/airbrake-js/tree/master/examples/angular-2)
   - [Backbone.js](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
   - [Bower](https://github.com/airbrake/airbrake-js/tree/master/examples/bower-wiredep)
