@@ -32,9 +32,9 @@ bower install airbrake-js-client
 
 ## Configuration
 
-After you have installed the [airbrake-js notifier]() the next step is
-configuring Airbrake in your Express app. Configuration involves creating an
-`AirbrakeClient` with your `projectId` and `projectKey` and
+After you have installed the [airbrake-js notifier](https://github.com/airbrake/airbrake-js)
+the next step is configuring Airbrake in your Express app.  Configuration
+involves creating an `AirbrakeClient` with your `projectId` and `projectKey` and
 registering an Express error handler. The error handler should be registered
 below all other `app.use()` and routes calls.
 
