@@ -8,14 +8,9 @@ description: Installing Airbrake in a Javascript application
 
 ![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
 
-## Features
+{% include_relative airbrake-js/features.md %}
 
-- Easy and flexible installation options including NPM, Bower and a public CDN
-- Send uncaught errors to Airbrake or manually using a try/catch
-- [Add custom parameters](https://github.com/airbrake/airbrake-js#filtering-errors) to your errors for more context
-- [Private sourcemap support](/docs/installing-airbrake/private-sourcemaps)
-- Control which errors you send with customizable filtering options
-- Support for:
+## Supported frameworks
   - [AngularJS](/docs/installing-airbrake/installing-airbrake-in-an-angularjs-app/)
   - [Angular 2](https://github.com/airbrake/airbrake-js/tree/master/examples/angular-2)
   - [Backbone.js](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
@@ -28,22 +23,7 @@ description: Installing Airbrake in a Javascript application
   - [React](https://github.com/airbrake/airbrake-js/tree/master/examples/react)
   - [RequireJS](https://github.com/airbrake/airbrake-js/tree/master/examples/requirejs)
 
-## Installation
-
-#### *Visit our [official GitHub repository](https://github.com/airbrake/airbrake-js) for full installation instructions and configuration options.*
-
-The notifier is built using a
-[standalone browserify build](http://www.forbeslindesay.co.uk/post/46324645400/standalone-browserify-builds)
-and can be used with:
-
-- [RequireJS](https://github.com/airbrake/airbrake-js/tree/master/examples/requirejs).
-- [Global/Window](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy).
-
-We include the full source code with the package, so you can use
-[Browserify](https://github.com/airbrake/airbrake-js/tree/master/examples/browserify) too.
-
-If you prefer not to host the library yourself,
-[airbrake-js is available on the excellent cdnjs CDN](https://cdnjs.com/libraries/airbrake-js).
+{% include_relative airbrake-js/installation.md %}
 
 ## Basic Usage
 
@@ -85,4 +65,4 @@ startApp = airbrake.wrap(startApp);
 startApp();
 ```
 
-#### *Visit our [official GitHub repository](https://github.com/airbrake/airbrake-js) for more information.*
+{% include_relative airbrake-js/going-further.md %}
