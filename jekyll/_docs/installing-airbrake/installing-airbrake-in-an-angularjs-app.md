@@ -1,9 +1,9 @@
 ---
 layout: classic-docs
-title: Installing Airbrake in an Angular JS application
-short-title: Angular JS
+title: Installing Airbrake in an AngularJS application
+short-title: AngularJS
 categories: [installing-airbrake]
-description: Installing Airbrake in an Angular JS application
+description: Installing Airbrake in an AngularJS application
 ---
 
 ![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
