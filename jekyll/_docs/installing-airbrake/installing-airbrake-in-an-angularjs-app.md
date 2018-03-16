@@ -7,7 +7,9 @@ description: Installing Airbrake in an AngularJS application
 ---
 
 ![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
+
 {% include_relative airbrake-js/features.md %}
+
 {% include_relative airbrake-js/installation.md %}
 
 ## Configuration
