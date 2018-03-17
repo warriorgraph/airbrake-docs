@@ -21,6 +21,7 @@ description: Installing Airbrake in a Javascript application
   - [Legacy](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy)
   - [Rails](https://github.com/airbrake/airbrake-js/tree/master/examples/rails)
   - [React](https://github.com/airbrake/airbrake-js/tree/master/examples/react)
+  - [Redux](/docs/installing-airbrake/installing-airbrake-in-a-redux-app/)
   - [RequireJS](https://github.com/airbrake/airbrake-js/tree/master/examples/requirejs)
 
 {% include_relative airbrake-js/installation.md %}
