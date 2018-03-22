@@ -15,7 +15,7 @@ description: Installing Airbrake in a Javascript application
   - [Angular 2](https://github.com/airbrake/airbrake-js/tree/master/examples/angular-2)
   - [Backbone.js](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
   - [Bower](https://github.com/airbrake/airbrake-js/tree/master/examples/bower-wiredep)
-  - [Browserify](https://github.com/airbrake/airbrake-js/tree/master/examples/browserify)
+  - [Browserify](/docs/installing-airbrake/installing-airbrake-in-a-browserify-app/)
   - [Express](/docs/installing-airbrake/installing-airbrake-in-an-express-app/)
   - [hapi.js](/docs/installing-airbrake/installing-airbrake-in-a-hapijs-app/)
   - [Legacy](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy)
