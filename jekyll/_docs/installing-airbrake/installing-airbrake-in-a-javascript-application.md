@@ -14,15 +14,16 @@ description: Installing Airbrake in a Javascript application
   - [AngularJS](/docs/installing-airbrake/installing-airbrake-in-an-angularjs-app/)
   - [Angular 2](https://github.com/airbrake/airbrake-js/tree/master/examples/angular-2)
   - [Backbone.js](https://github.com/airbrake/airbrake-js/wiki/Using-Airbrake-with-Backbone.js)
-  - [Bower](https://github.com/airbrake/airbrake-js/tree/master/examples/bower-wiredep)
+  - [Bower](/docs/installing-airbrake/installing-airbrake-in-a-bower-app/)
   - [Browserify](/docs/installing-airbrake/installing-airbrake-in-a-browserify-app/)
   - [Express](/docs/installing-airbrake/installing-airbrake-in-an-express-app/)
   - [hapi.js](/docs/installing-airbrake/installing-airbrake-in-a-hapijs-app/)
   - [Legacy](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy)
-  - [Rails](https://github.com/airbrake/airbrake-js/tree/master/examples/rails)
-  - [React](https://github.com/airbrake/airbrake-js/tree/master/examples/react)
+  - [Rails](/docs/installing-airbrake/installing-airbrake-js-in-a-rails-app/)
+  - [React](/docs/installing-airbrake/installing-airbrake-in-a-react-app/)
   - [Redux](/docs/installing-airbrake/installing-airbrake-in-a-redux-app/)
-  - [RequireJS](https://github.com/airbrake/airbrake-js/tree/master/examples/requirejs)
+  - [RequireJS](/docs/installing-airbrake/installing-airbrake-in-a-requirejs-app/)
+  - [Vue.js](/docs/installing-airbrake/installing-airbrake-in-a-vuejs-app/)
 
 {% include_relative airbrake-js/installation.md %}
 
