@@ -95,6 +95,12 @@ to specify keys to filter [out of the payload](https://airbrake.io/docs/api/#cre
 (`environment`, `parameters`, `session`, etc). Before sending an
 error, filtered keys will be substituted with the `[Filtered]` label.
 
+## Reporting JavaScript errors from your Rails app
+
+Please see our guide on
+[Installing airbrake-js in a Rails app](/docs/installing-airbrake/installing-airbrake-js-in-a-rails-app)
+for full details.
+
 ## Deploy tracking
 With deploy tracking you can send information about the deployment of your app
 to Airbrake. This unlocks error filtering by deploy and deploy markers are
