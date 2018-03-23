@@ -20,9 +20,10 @@ description: Installing Airbrake in a Javascript application
   - [hapi.js](/docs/installing-airbrake/installing-airbrake-in-a-hapijs-app/)
   - [Legacy](https://github.com/airbrake/airbrake-js/tree/master/examples/legacy)
   - [Rails](https://github.com/airbrake/airbrake-js/tree/master/examples/rails)
-  - [React](https://github.com/airbrake/airbrake-js/tree/master/examples/react)
+  - [React](/docs/installing-airbrake/installing-airbrake-in-a-react-app/)
   - [Redux](/docs/installing-airbrake/installing-airbrake-in-a-redux-app/)
   - [RequireJS](/docs/installing-airbrake/installing-airbrake-in-a-requirejs-app/)
+  - [Vue.js](/docs/installing-airbrake/installing-airbrake-in-a-vuejs-app/)
 
 {% include_relative airbrake-js/installation.md %}
 
