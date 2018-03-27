@@ -47,6 +47,31 @@ All of the docs can be found in the `jekyll/_docs` directory. You can make any
 changes that you need there, If you add a new doc you may need to re-run `jekyll
 serve` to have Jekyll rebuild and serve your new doc.
 
+##### Fetching instructions from example apps
+In an effort to avoid duplicating installation instructions, several
+installation docs have a fetch script to pull the most recent instructions from
+official example apps. For example when the installation instructions for the
+react example app change, the instructions should be re-fetched with the
+following commands:
+
+```
+# Change to the react directory with our helper script
+cd jekyll/_docs/installing-airbrake/airbrake-js/react
+
+# Fetch a new version of the react instructions from the react example app
+./fetch_config
+```
+
+If you are contributing to an installation doc and you see lines like the
+following, you should check if there is a helper script to fetch the most recent
+install instructions from the example app:
+
+```
+# lines like these indicate there is a helper script to update the content
+{% include_relative airbrake-js/react/config.md %}
+{% include_relative airbrake-js/hapijs/server.js %}
+```
+
 ## Jekyll Commands
 
 `jekyll build` - this tells Jekyll to generate the static files for the site,
