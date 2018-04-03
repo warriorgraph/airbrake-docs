@@ -14,7 +14,7 @@ options to reduce your error quota usage.
 All monthly quota plans support configuring a per minute rate limit. This value
 controls how many errors will be accepted each minute for your account. Any
 account admin can configure the rate limit per minute from the [account
-settings](https://airbrake.io/account/error-quota).
+settings](https://airbrake.io/account/adjust-rate-limit).
 
 ### Ignore noisy errors
 
