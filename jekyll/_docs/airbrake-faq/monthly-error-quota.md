@@ -47,7 +47,7 @@ want to maximize preserving your error quota through out the month, then you
 might want to use a lower value.
 
 Any account admin can configure the max errors per minute from the
-[account settings](https://airbrake.io/account/error-quota) page.
+[account settings](https://airbrake.io/account/adjust-rate-limit) page.
 
 ### Why monthly error quota?
 Our [blog post](https://airbrake.io/blog/airbrake-news/get-more-flexibility-with-monthly-error-quotas)
