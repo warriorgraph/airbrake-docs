@@ -64,7 +64,7 @@ Strict grouping compares hashes based on:
 ---|---|---|---
 error type|used|used|used
 backtrace| - | - |used
-error message| used | - | -
+error message| used | - | used
 function|used| - |used
 file |used| - |used
 environment|used|used|used
