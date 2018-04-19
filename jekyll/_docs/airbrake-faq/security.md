@@ -24,7 +24,7 @@ can be found on the [AWS security pages](https://aws.amazon.com/security/) or [r
 For paid plans Airbrake integrates with GitHub to provide 2FA. By enabling 2FA on
 your GitHub organization you help secure your Airbrake account with 2FA.
 
-## Does Airbrake maintain any certifications, attestation, or complaince?
+## Does Airbrake maintain any certifications, attestation, or compliance?
 Airbrake has [certified it's compliance](https://www.privacyshield.gov/participant?id=a2zt0000000TTiJAAW) with the EU-U.S. and Swiss-U.S [Privacy Shield](https://www.privacyshield.gov) as set forth by the U.S. Department of commerce.
 
 Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacintg <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
@@ -38,7 +38,7 @@ When accepting payments Airbrake does so in a PCI compliant manner. Our PCI SAQ 
 
 ## Vulnerability or security disclosure
 
-If you would like to report a vulnerability, security issue or have other security related conerns about an Airbrake product please contact <a href="mailto:security@airbrake.io">security@airbrake.io</a>.
+If you would like to report a vulnerability, security issue or have other security related concerns about an Airbrake product please contact <a href="mailto:security@airbrake.io">security@airbrake.io</a>.
 
 If you are disclosing a vulnerability please provide
 
