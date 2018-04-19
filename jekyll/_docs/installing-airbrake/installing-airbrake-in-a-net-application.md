@@ -2,7 +2,7 @@
 layout: classic-docs
 title: .NET
 categories: [installing-airbrake]
-description: installing airbrake in a .NET applicaiton
+description: installing airbrake in a .NET application
 ---
 
 ![dot net flag](/docs/assets/img/docs/dot_net_flag.jpg)

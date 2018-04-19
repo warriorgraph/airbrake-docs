@@ -6,8 +6,8 @@ description: Airbrake Security and Compliance
 ---
 
 ### Is data encrypted in transit?
-Communication between customers and Airbrake is by default sent securely 
-via TLS. 
+Communication between customers and Airbrake is by default sent securely
+via TLS.
 
 Airbrake currently supports TLS protocols v1.0, v1.1 and v1.2 with a planned
 deprecation for TLSv1.0 and TLSv1.1 on June 30, 2018.
@@ -27,7 +27,7 @@ your GitHub organization you help secure your Airbrake account with 2FA.
 ## Does Airbrake maintain any certifications, attestation, or compliance?
 Airbrake has [certified it's compliance](https://www.privacyshield.gov/participant?id=a2zt0000000TTiJAAW) with the EU-U.S. and Swiss-U.S [Privacy Shield](https://www.privacyshield.gov) as set forth by the U.S. Department of commerce.
 
-Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacintg <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
+Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacting <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
 
 Airbrake is currently preparing for a [SOC 2 Type 2 Audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html).
 

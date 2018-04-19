@@ -9,7 +9,7 @@ description: aggregations
 
 <img width="500px" src="/docs/assets/img/docs/features/aggregations.png" alt="Aggregations view">
 
-Aggregations show you all sorts of useful info accross all the occurrences of
+Aggregations show you all sorts of useful info across all the occurrences of
 an error group. If the data is present, Airbrake will automatically show you a
 breakdown of these segments of each error group:
 

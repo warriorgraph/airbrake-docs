@@ -97,5 +97,5 @@ Then this is how we configure the SMS message in Zapier:
 ### SMS example message
 Here is a  web preview of the SMS message sent as part of the test for the SMS
 action app.  You should have received the SMS message to the number configured
-and be able to see epected values in the web output of the message body:
+and be able to see expected values in the web output of the message body:
 ![example-sms](/docs/assets/img/docs/integrations/zapier/example-sms.png)
