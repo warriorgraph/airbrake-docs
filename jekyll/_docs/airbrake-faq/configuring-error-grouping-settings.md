@@ -28,7 +28,7 @@ clean and focused.
 
 ## Custom grouping
 There are a few exceptions where Airbrake uses different data for the hash, these
-are configured per project from the projects's settings page.
+are configured per project from the project's settings page.
 
 ### Global grouping
 *Create Error Groups by error type, don't use default grouping rules*
@@ -47,7 +47,7 @@ Global grouping compares hashes based on:
 ### Strict grouping
 *Create error groups by unique backtrace*
 
-A hash is created from the whole backtrace, not only the line where the error occured.
+A hash is created from the whole backtrace, not only the line where the error occurred.
 
 **e.g.**
 two errors that are exactly the same except for their **backtraces** will now

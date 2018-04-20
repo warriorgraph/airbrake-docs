@@ -18,7 +18,7 @@ description: installing airbrake in a node app
 
 ## Installation
 
-#### *Visit our [official GitHub repository](https://github.com/airbrake/node-airbrake) for full installtion and configuration information.*
+#### *Visit our [official GitHub repository](https://github.com/airbrake/node-airbrake) for full installation and configuration information.*
 
 ### NPM
 

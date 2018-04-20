@@ -17,7 +17,7 @@ description: installing airbrake in a Python app
 
 ## What version of Python are you using?
 The version of Python your app is using determines which installation
-instrutcions to follow.
+instructions to follow.
 
 - Using a 3.x version of Python? follow the [Python 3 instructions](#python-3x).
 - Using a 2.x version of Python? follow the [Python 2 instructions](#python-27).
