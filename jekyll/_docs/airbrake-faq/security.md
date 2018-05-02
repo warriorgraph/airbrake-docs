@@ -21,8 +21,14 @@ various levels of compliance, certifications and assurance. More information
 can be found on the [AWS security pages](https://aws.amazon.com/security/) or [requested from AWS](https://pages.awscloud.com/compliance-contact-us.html).
 
 ## Does Airbrake have two-factor authentication?
-For paid plans Airbrake integrates with GitHub to provide 2FA. By enabling 2FA on
-your GitHub organization you help secure your Airbrake account with 2FA.
+Two-factor authentication is available for all paid plans and can be enabled on
+your [profile page](https://airbrake.io/users/edit). For more info on how to set
+up the two-factor authentication, please visit the
+[two-factor authentication doc](/docs/features/two-factor-authentication).
+
+Airbrake also supports the two-factor authentication as part of the GitHub
+single sign-on feature. By enabling the two-factor authentication on your GitHub
+profile you help secure your Airbrake account with an extra layer of security.
 
 ## Does Airbrake maintain any certifications, attestation, or compliance?
 Airbrake has [certified it's compliance](https://www.privacyshield.gov/participant?id=a2zt0000000TTiJAAW) with the EU-U.S. and Swiss-U.S [Privacy Shield](https://www.privacyshield.gov) as set forth by the U.S. Department of commerce.
