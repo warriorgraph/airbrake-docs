@@ -19,8 +19,14 @@ only the daily interval).
 
 # <a name="managing-email-subscriptions"></a> Managing email subscriptions
 
-To subscribe or unsubscribe to daily digests configure the ["Send digest
-emails" setting](https://err.io/docs/features/digests/#managing-email-subscriptions):
+To unsubscribe from daily digests, click the "Unsubscribe" link and follow the
+instructions:
+
+![digest emails unsubscribe](/docs/assets/img/docs/features/digest_unsubscribe.png)
+
+Alternatively, you can configure the ["Send digest emails"
+setting](/docs/features/digests/#managing-email-subscriptions) in
+your [profile notifications](https://airbrake.io/users/notifications):
 
 ![digest emails option](/docs/assets/img/docs/features/digest_settings.png)
 
