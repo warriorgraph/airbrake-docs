@@ -44,6 +44,16 @@ party.
 - Password: JirauserPass
 - Project Key: EXAMPLE
 
+## Using Google authentication with JIRA?
+
+If you're using Google auth to log into your JIRA account and you don't
+have a password, you should use your **email** (not username) and **API token**
+in Airbrake for basic auth with JIRA. API token can be created [here](https://id.atlassian.com/manage/api-tokens).
+
+In that case, your settings for basic auth would look like this:
+- Username: your@email.com
+- Password: created-API-token
+
 ## Testing your JIRA integration settings
 
 Testing your JIRA integration settings is as easy as clicking on the **Test
