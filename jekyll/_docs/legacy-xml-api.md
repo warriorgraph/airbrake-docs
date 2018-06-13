@@ -20,7 +20,7 @@ version available.
 
 * Pull the latest code from GitHub
 * Push a new version of your application to the App Store
-* If using [App version](/docs/airbrake-android-ios/app-versions) to ignore
+* If using [App version](/docs/features/app-versions) to ignore
 errors from previous versions, update the **Min app version** field of your
 Airbrake project settings.
 
