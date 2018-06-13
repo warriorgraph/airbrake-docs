@@ -8,32 +8,28 @@ description: deploy tracking troubleshooting
 *For more general information on tracking your application's deploys, Please
 read our [article on deploy tracking](/docs/features/deploy-tracking).*
 
-# Deploy Tracking is not resolving errors for your env?
+# Deploy Tracking is not resolving errors for your environment?
 
 ### Reason 1: Environment name does not match exactly
 
 Deploy tracking environment names are case sensitive. Therefore `Production`
-and `production` would be treated as different environments. Please make sure
-that the string in your deploy code for `RAILS_ENV` matches exactly with the
-environment variable you initialized your notifier with.
+and `production` would be treated as different environments. Ensure that the
+`environment` string you specify for your deploys is an exact match of the
+`environment` string of your errors.
 
-> e.g. If an error occurs with the environment `Production` you would need
-to specify `RAILS_ENV` as "Production" or no errors with the `Production`
-env will be resolved.
+If you are using the [airbrake Ruby gem](https://github.com/airbrake/airbrake),
+you may want to check that `RAILS_ENV` is identical to the `environment`
+variable you initialized your notifier with.
 
 ### Reason 2: **Resolve all errors after a deploy** is unchecked
 
-The **Resolve all errors after a deploy** setting is enabled by default but if
-you're having issues with errors not resolving after a deploy, this setting may
-be disabled. Please check your project's settings page by clicking the gear
-icon in the top left corner of the error dashboard.
+The **Resolve all errors after a deploy** setting is enabled by default, but it
+can be disabled. It can be found on your project's settings page.
 
 ![resolve all checkbox](/docs/assets/img/docs/airbrake/resolve_all_checkbox.png)
 
-**Resolve all errors on this project after a deploy** should be checked.
-
 # Capistrano Deploys
 If the notification of the deploy is not happening automatically when you do a
-capistrano deploy.
-
-You may need to add `require 'airbrake/capistrano'` to your `deploy.rb`
+capistrano deploy, you may need to add `require 'airbrake/capistrano'` to your
+`deploy.rb`. Refer to the [airbrake Ruby gem docs](https://github.com/airbrake/airbrake#capistrano)
+for usage.
