@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: App versions
-categories: [airbrake-android-ios]
+categories: [features]
 description: App versions
 ---
 
