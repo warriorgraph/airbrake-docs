@@ -57,7 +57,7 @@ repository.
 
 ### Example curl command
 {% highlight bash %}
-curl -X POST -H "Content-Type: application/json" -d '{"environment":"production","username":"john","repository":"https://github.com/USERNAME/REPO","revision":"38748467ea579e7ae64f7815452307c9d05e05c5","version":"v2.0"}' "https://airbrake.io/api/v4/projects/PROJECT_ID/deploys?key=PROJECT_KEY"
+curl -X POST -H "Content-Type: application/json" -d '{"environment":"production","username":"john","repository":"https://github.com/USERNAME/REPO","revision":"38748467ea579e7ae64f7815452307c9d05e05c5"}' "https://airbrake.io/api/v4/projects/PROJECT_ID/deploys?key=PROJECT_KEY"
 {% endhighlight %}
 
 ### Example bash script
@@ -83,7 +83,7 @@ curl -X POST \
 {% endhighlight %}
 
 ### JSON post data description
-You can post JSON data with the following keys. there are example
+You can post JSON data with the following keys:
 
 Key | Example
 --- | -------
