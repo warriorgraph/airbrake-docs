@@ -6,7 +6,7 @@ description: deploy tracking
 ---
 
 *Having issues deploy tracking in your app? Check the [deploy troubleshooting
-doc](/docs/airbrake-faq/deploy-tracking-troubleshooting).*
+doc](/docs/features/deploy-tracking-troubleshooting).*
 
 ## Why track deploys?
 
