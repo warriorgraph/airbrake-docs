@@ -7,12 +7,20 @@ description: App versions
 
 ![arthur ios](/docs/assets/img/docs/arthur_ios.jpeg)
 
-You can download the Airbrake iOS notifier at [github.com/airbrake/airbrake-ios](https://github.com/airbrake/airbrake-ios**).
+In situations where multiple versions of your application are live at the same
+time, Airbrake can be configured to:
 
-Airbrake can be set to ignore errors that come from older versions of your
-application. This is most useful when releasing new versions of iOS or Android
-apps. Not everyone will upgrade the app, but you don't want to see reports
-from errors you've already fixed.
+- Ignore errors that come from older versions of your application.
+- Only associate errors and deploys of the same version.
+
+This can be useful for mobile apps such as Android and iOS, where not all of
+your users will upgrade, and you don't want to see error reports from errors
+you've already fixed.
+
+It may also be useful if you run multiple different versions of your software
+in production at the same time, and you want to [track
+deploys](/docs/features/deploy-tracking/) and their associated errors on each
+version.
 
 ## Current app version
 **Current app version** is the version of your app currently in the app store.
