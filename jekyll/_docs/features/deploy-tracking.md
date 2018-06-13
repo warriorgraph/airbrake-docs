@@ -15,27 +15,30 @@ deploys and your errors. Here are a few of the benefits deploy tracking gives
 you:
 
 - Resolve all errors on a deploy
-- Project and error graphs show deploy markers
+- Deploy markers on project and error graphs
 - Insight into which deploys introduced problems
 - Insight into which deploys solved problems
 - Generate backtrace links to click through to the offending lines of code
 - Filter errors by deploy
+- Project and account-wide deploy trends
+- Advanced deploy analytics
 
 ### Resolve all errors on a deploy
-Triggering a deploy in your Airbrake project resolves all errors in the
-specified `environment` this gives you a fresh slate each deploy so you can
-tell which errors you fixed and which errors are still an issue.
+When enabled, triggering a deploy in your Airbrake project resolves all errors
+in the specified `environment` this gives you a fresh slate each deploy so you
+can tell which errors you fixed and which errors are still an issue.
 
 ### Deploys show on your project's error graphs
 Deploys are marked with blue circles on your project's graphs
 ![graph with deploys](/docs/assets/img/docs/airbrake/graph_with_deploys.png)
 
-Hovering over them will activate a tooltip with environment and timestamp
-information.
+They link to the detailed view for this deploy. Hovering over them will show a
+summary including a timestamp, the environment and an estimation of how many
+errors this deploy fixed.
 
 ### Deploys create backtrace links
 Using deploy tracking creates helpful links in your backtrace so you can
-click through to the file/line/revision in GitHub/GitLab.
+click through to the file/line/revision in GitHub/GitLab/Bitbucket.
 
 ![backtrace link to github](/docs/assets/img/docs/airbrake/backtrace_link_to_github.png)
 
