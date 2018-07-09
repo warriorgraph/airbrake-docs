@@ -22,7 +22,8 @@ Airbrake needs your private GitLab token to create GitLab issues for your projec
 
 ### Find your private GitLab token
 
-You can find your private GitLab token on your [**Profile Settings** page under the **Account** tab](https://gitlab.com/profile/account).
+You can find your private GitLab token on your [**Settings** page under the
+**Access tokens** tab](https://gitlab.com/profile/personal_access_tokens).
 
 ![gitlab-private-token.png](/docs/assets/img/docs/integrations/gitlab_private_token.png)
 
@@ -56,13 +57,9 @@ Airbrake needs your private GitLab CE/EE token to create GitLab issues for your 
 
 ### Find your private GitLab CE/EE token
 
-On your GitLab CE/EE account go to **Profile Settings**
+On your GitLab CE/EE account go to **Settings**
 
 ![gitlab-ce-ee-profile-settings.png](/docs/assets/img/docs/integrations/gitlab_ce_ee_profile_settings.png)
-
-Click on **Account**
-
-![gitlab-ce-ee-account.png](/docs/assets/img/docs/integrations/gitlab_ce_ee_account.png)
 
 Copy and paste your private GitLab CE/EE token
 
