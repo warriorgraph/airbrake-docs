@@ -1,7 +1,6 @@
 ---
 layout: classic-docs
 title: Global error grouping
-categories: [airbrake-faq]
 description: Global error grouping
 ---
 

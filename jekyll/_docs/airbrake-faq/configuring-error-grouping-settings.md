@@ -1,7 +1,6 @@
 ---
 layout: classic-docs
 title: Configuring error grouping settings
-categories: [airbrake-faq]
 description: configuring error grouping settings for your project
 ---
 
