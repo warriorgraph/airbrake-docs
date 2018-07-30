@@ -23,7 +23,7 @@ different for each notifier so check your notifier's readme on GitHub.
 - [PHP](https://github.com/airbrake/phpbrake#adding-custom-data-to-the-notice)
 - [Python](https://github.com/airbrake/airbrake-python#setup)
 - [.NET](https://github.com/airbrake/SharpBrake#usage)
-- [Java](https://github.com/airbrake/airbrake-java#log4j)
+- [Java](https://github.com/airbrake/javabrake#quickstart)
 - [Node.js](https://github.com/airbrake/node-airbrake#filtering-errors)
 - [Golang](https://github.com/airbrake/gobrake#example)
 - [Django](https://github.com/airbrake/airbrake-django#configure-airbrake-in-your-settingspy)
