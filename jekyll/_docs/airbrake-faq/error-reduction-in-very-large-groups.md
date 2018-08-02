@@ -20,10 +20,11 @@ ensuring we can continue delivering fast and reliable service. We drop roughly
 evenly.
 
 ### Total occurrence numbers
-Error occurrence counts are not affected and behave as normal, giving you the
-real number of occurrences. Error overview graphs will also show the real
-number of occurrences (the number before our algorithm runs).  The only
-difference is that you can not browse every single occurrence of this error.
+Error overview graphs will show the real number of occurrences (the number
+before our algorithm runs). The number shown on the occurrences section of an
+error and in the errors list is the actual number of error occurrences
+currently available to you to view (the number of occurrences available after
+our algorithm runs).
 
 ### Rate limiting
 Because these error groups with very high occurrence counts can report many
