@@ -26,6 +26,9 @@ error and in the errors list is the actual number of error occurrences
 currently available to you to view (the number of occurrences available after
 our algorithm runs).
 
+Errors not stored (ie: errors rejected by our algorithm) do not count towards
+your monthly quota usage.
+
 ### Rate limiting
 Because these error groups with very high occurrence counts can report many
 errors each minute, Airbrake will start to partially limit the percentage of
