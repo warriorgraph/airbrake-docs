@@ -1,0 +1,50 @@
+---
+layout: classic-docs
+title: Public Sourcemaps
+short-title: Public Sourcemaps
+categories: [features]
+description: Public sourcemaps
+---
+
+![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
+
+Public sourcemaps are a core feature available on all paid plans along with
+[private sourcemaps](/docs/features/private-sourcemaps).
+
+Using sourcemaps allows you to minify your JavaScript code to increase page
+performance while still being able to get relevant backtraces for your app's
+errors.
+
+## Using Public Sourcemaps with Airbrake
+
+This guide assumes you have already [installed Airbrake in your JavaScript
+app](/docs/installing-airbrake/installing-airbrake-in-a-javascript-application).
+
+In order to enable source map support you have to specify the path to the
+source map file according to
+[the source map specification](https://docs.google.com/document/d/1U1RGAehQwRyp
+UTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit#heading=h.lmz475t4mvbx).
+For example, `airbrake.min.js` has the following line:
+
+```
+//# sourceMappingURL=airbrake.min.map
+```
+
+*Please note* that the Airbrake backend downloads the source map file to
+process the backtrace. This means that the source map should be publicly
+accessible via HTTP. So, for example, don't expect source map support to work
+on your local webserver running on `localhost`.
+
+Custom source map URLs are supported by assigning a special property of
+`notice.context` called `sourceMaps`. The keys of the `sourceMaps` object
+represent shell filename patterns and the values are URLs of your source maps.
+
+```js
+airbrake.addFilter(function(notice) {
+  notice.context.sourceMaps = {
+    '*': 'https://domain.com/path/to/source.map', // for all files
+    'https://domain.com/path/to/file.min.js': 'https://domain.com/path/to/source.map'
+  };
+  return notice;
+});
+```
