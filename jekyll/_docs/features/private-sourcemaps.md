@@ -9,7 +9,7 @@ description: Private sourcemaps
 ![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
 
 Private sourcemaps are a core feature available on all paid plans along with
-[public sourcemaps](https://github.com/airbrake/airbrake-js#source-map).
+[public sourcemaps](/docs/features/public-sourcemaps).
 
 This guide assumes you have already [installed Airbrake in your JavaScript
 app](/docs/installing-airbrake/installing-airbrake-in-a-javascript-application).
@@ -77,7 +77,8 @@ For your private sourcemap upload to function correctly it's important you check
 - Your `app.min.js` file has the `sourceMappingURL` comment at the bottom of
   that file, e.g. `//# sourceMappingURL=app.min.js.map`
 
-We also support public sourcemaps please visit our [official airbrake-js repo](https://github.com/airbrake/airbrake-js#source-map) for more info.
+We also support public sourcemaps please visit our
+[doc](/docs/features/public-sourcemaps) for more info.
 
 #### Sourcemap file size limit
 
