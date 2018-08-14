@@ -87,3 +87,18 @@ Public and private sourcemaps have a file size limit of 32MB. Sourcemaps greater
 {"code":400,"type":"Bad Request","message":"http: request body too large"}
 
 ```
+
+### Example of how Airbrake looks for your sourcemaps
+- Your project sends an error to Airbrake
+- Airbrake processes the error and sees a filename
+  `http://localhost:3000/javascript/app.js`
+- Airbrake tries to download `http://localhost:3000/javascript/app.js` to
+  extract sourcemap location, but it can't since that file is on localhost
+- Airbrake then looks at `notice.context["sourceMaps"]` in case you manually
+  associated a sourcemap with the `http://localhost:3000/javascript/app.js`
+  file
+- From the `sourceMaps` value, Airbrake discovers that the sourcemap is located
+  at `http://localhost:3000/javascript/maps/app.js.map`, but Airbrake can't
+  download it since, again, it's localhost
+- Airbrake then finally checks if you manually uploaded that file using this
+  **private sourcemap feature**
