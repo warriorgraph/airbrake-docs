@@ -9,7 +9,15 @@ description: rejected errors
 > [monthly quota](/docs/airbrake-faq/monthly-error-quota) or exceeding your
 > [rate limit](/docs/airbrake-faq/what-is-a-rate-limit).
 
-## Invalid format
+# Reasons for error rejections
+
+## 1. Minimum app version filtering
+If you have a [minimum app version](/docs/features/app-versions/) set, and you
+send errors that are below that version or have no version set, then they will
+be rejected. This is helpful if you are only concerned with errors from your
+application's latest version.
+
+## 2. Invalid format
 The error notice is rejected if it is sent with incorrect JSON/XML as determined
 by:
 
@@ -23,10 +31,10 @@ by:
 You can view rejected error trends in your project overview graph.
 
 ### Placeholder exceptions`AirbrakeNotice`
-Rejections are also displayed in your error groups list and appear as
-`AirbrakeNotice` placeholder exceptions that provide as much information as
-possible. These placeholders let you know that your Airbrake notifier library
-couldn't parse an error into the correct format.
+Rejections that are due to invalid error format are also displayed in your
+error groups list and appear as `AirbrakeNotice` placeholder exceptions that
+provide as much information as possible. These placeholders let you know that
+your Airbrake notifier library couldn't parse an error into the correct format.
 
 ## Getting rejections?
 

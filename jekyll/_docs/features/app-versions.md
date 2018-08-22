@@ -10,7 +10,8 @@ description: App versions
 In situations where multiple versions of your application are live at the same
 time, Airbrake can be configured to:
 
-- Ignore errors that come from older versions of your application.
+- [Reject](/docs/airbrake-faq/rejected-errors/) errors that come from older
+  versions of your application.
 - Only associate errors and deploys of the same version.
 
 This can be useful for mobile apps such as Android and iOS, where not all of
