@@ -36,11 +36,16 @@ revision comparison:
 
 ## How do you start collecting Diff Stats?
 
-To be able to collect Diff Stats you have to set up [deploy tracking](
-/docs/features/deploy-tracking) and the [GitHub integration](
-/docs/integrations/github). If you're already using deploy tracking and the
-GitHub integration you should be all set. In case you don't want us to collect
-that data, you can disable it in the GitHub integration page:
+Airbrake supports diff stat collection for the following integrations:
 
-![diff stats setting](
-/docs/assets/img/docs/features/diff_stats_collection_setting.png)
+* [GitHub integration](/docs/integrations/github)
+* [GitLab integration](/docs/integrations/gitlab)
+
+To be able to collect Diff Stats you have to set up [deploy tracking](
+/docs/features/deploy-tracking) and one of the above-mentioned integrations. If
+you've already done that, then you should be all set.
+
+P.S. In case you don't want us to collect that data, you can disable it in the
+integration's page:
+
+![diff stats setting](/docs/assets/img/docs/features/diff_stats_collection_setting.png)
