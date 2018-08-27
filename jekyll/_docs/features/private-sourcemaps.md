@@ -9,7 +9,7 @@ description: Private sourcemaps
 ![](https://s3.amazonaws.com/document-resources/jsbrakeman.png)
 
 Private sourcemaps are a core feature available on all paid plans along with
-[public sourcemaps](https://github.com/airbrake/airbrake-js#source-map).
+[public sourcemaps](/docs/features/public-sourcemaps/).
 
 This guide assumes you have already [installed Airbrake in your JavaScript
 app](/docs/installing-airbrake/installing-airbrake-in-a-javascript-application).

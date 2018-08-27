@@ -30,14 +30,16 @@ For example, `airbrake.min.js` has the following line:
 //# sourceMappingURL=airbrake.min.map
 ```
 
-*Please note* that the Airbrake backend downloads the source map file to
-process the backtrace. This means that the source map should be publicly
-accessible via HTTP. So, for example, don't expect source map support to work
+*Please note* that the Airbrake backend downloads the sourcemap file to
+process the backtrace. This means that the sourcemap should be publicly
+accessible via HTTP. So, for example, don't expect sourcemap support to work
 on your local webserver running on `localhost`.
 
-Custom source map URLs are supported by assigning a special property of
+## Custom sourcemap URLs
+
+Custom sourcemap URLs are supported by assigning a special property of
 `notice.context` called `sourceMaps`. The keys of the `sourceMaps` object
-represent shell filename patterns and the values are URLs of your source maps.
+represent shell filename patterns and the values are URLs of your sourcemaps.
 
 ```js
 airbrake.addFilter(function(notice) {
@@ -48,3 +50,12 @@ airbrake.addFilter(function(notice) {
   return notice;
 });
 ```
+
+## Sourcemaps and Node.js
+
+For server side sourcemaps, please use the following steps:
+1. Upload sourcemap to Airbrake using our [Private Sourcemaps
+   feature](/docs/features/private-sourcemaps/)
+2. Link the minified JS files to the corresponding sourcemap using the [custom
+   sourcemap URLs](/docs/features/public-sourcemaps/#custom-sourcemap-urls)
+   feature
