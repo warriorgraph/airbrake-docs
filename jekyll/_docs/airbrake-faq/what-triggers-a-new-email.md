@@ -11,11 +11,12 @@ error entirely, or just another occurrence of an error we've previously seen.
 We currently review...
 
 - The error class of the error
-- The error message of the error with data values extracted
-(see [structured logging](/docs/features/structured-logging))
+- The error message of the error with data values extracted (see [structured
+  logging](/docs/features/structured-logging))
 - The file in which the error occurred
 - The line number at which the error occurred
-- The `RAILS_ENV` that was set when the error occurred
+- The `environment` where the error occurred (see
+  [environments](/docs/airbrake-faq/configuring-project-environments/))
 
 ## What is a notification?
 A notification can be:
