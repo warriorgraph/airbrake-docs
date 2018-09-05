@@ -4,6 +4,23 @@ title: Configuring error grouping settings
 description: configuring error grouping settings for your project
 ---
 
+### *Legacy project notice*
+*This is the doc for legacy grouping options. Please check out [our current
+grouping doc](/docs/features/error-grouping/) for info on how Airbrake groups
+errors for non-legacy projects.*
+
+### How do I tell if I have a legacy project?
+You can tell by navigating to your project's settings page (click the
+"settings" link in your navbar from your project's dashboard). If you see a
+small settings page (ie: do not have sections for Global grouping and Strict
+grouping above the min app version text box) that doesn't have sections for
+custom grouping options, then you have a non-legacy project and should check
+out [our current grouping doc](/docs/features/error-grouping/).
+
+If you do have a legacy project, check out the legacy grouping options below.
+
+---
+
 ## Default grouping
 Airbrake calculates a hash for each error and groups errors with same hash together.
 The following attributes are used to calculate the hash:
