@@ -40,6 +40,7 @@ Airbrake supports diff stat collection for the following integrations:
 
 * [GitHub integration](/docs/integrations/github)
 * [GitLab integration](/docs/integrations/gitlab)
+* [Bitbucket integration](/docs/integrations/bitbucket)
 
 To be able to collect Diff Stats you have to set up [deploy tracking](
 /docs/features/deploy-tracking) and one of the above-mentioned integrations. If
