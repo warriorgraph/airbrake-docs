@@ -7,35 +7,47 @@ description: installing airbrake in a node app
 ---
 ![node flag](/docs/assets/img/docs/node_flag.jpeg)
 
-## Features
-* Send chosen environment variables (whitelist or blacklist)
-* Detect and fix circular references in error context information
-* Support for all features of the 2.1 notification API
-* Support for long-stack-traces
-* Optional auto-handler for `uncaughtException` events
-* Provides notification URL linking to Airbrake in `notify()` callback
-* Timeout Airbrake requests after 30 seconds, you never know
+{% include_relative airbrake-js/features.md %}
 
 ## Installation
 
-#### *Visit our [official GitHub repository](https://github.com/airbrake/node-airbrake) for full installation and configuration information.*
+**Step 1:** Add the library
 
-### NPM
+Add the Airbrake error notifier to your `package.json` then run `npm install` from your project's directory:
 
-Add the Node Airbrake package to your `package.json`:
-
-```js
+```json
 {
   "dependencies": {
-    "airbrake": "~1.0.3"
+    "airbrake-js": "^1.4.6"
   }
 }
 ```
 
-### Manual
+Or install the notifier [manually](https://github.com/airbrake/airbrake-js#installation)
 
-Invoke the following command from your terminal:
+_**Note:** if you're not already using the [request](https://github.com/request/request) library, you should install it as well when installing `airbrake-js`._
 
-```sh
-npm install airbrake
+**Step 2:** Configure the library
+
+This is a simple Node app `app.js` file that throws an error and sends it to Airbrake. To configure Airbrake in your project, just `require` the airbrake-js library and instantiate the client as shown:
+
+```js
+var http = require('http');
+var AirbrakeClient = require('airbrake-js');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+  throw new Error('I am an uncaught exception');
+}).listen(8080);
+
+console.log('Server running on port 8080.');
+
+var airbrake = new AirbrakeClient({
+  projectId: 'Your Project ID',
+  projectKey: 'Your Project API Key'
+});
 ```
+
+*For our [full Node example app code](https://github.com/airbrake/airbrake-js/tree/master/examples/nodejs) and more information, please visit our [official GitHub repo](https://github.com/airbrake/airbrake-js).*
+
