@@ -7,8 +7,9 @@ description: Code Insights
 
 ## Why use Code Insights?
 
-Code Insights uses data from your version control service (eg: GitHub) to show
-you how your code changes affect your application's errors and quality.
+Code Insights uses data from your version control service (GitHub, GitLab, and
+Bitbucket are supported) to show you how your code changes affect your
+application's errors and quality.
 
 With Code Insights you will be able to see a diff snapshot for each deploy on
 your deploy dashboard. Diff snapshots include: deployed pull requests, total
