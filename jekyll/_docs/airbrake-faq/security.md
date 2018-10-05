@@ -9,8 +9,9 @@ description: Airbrake Security and Compliance
 Communication between customers and Airbrake is by default sent securely
 via TLS.
 
-Airbrake currently supports TLS protocols v1.0, v1.1 and v1.2 with a planned
-deprecation for TLSv1.0 and TLSv1.1 on June 30, 2018.
+Airbrake currently supports TLS protocol v1.2.
+
+Support for TLSv1.0 and TLSv1.1 was deprecated on June 30, 2018.
 
 ## Is data encrypted at rest?
 All Airbrake customer data is stored encrypted at rest. This includes backups.
