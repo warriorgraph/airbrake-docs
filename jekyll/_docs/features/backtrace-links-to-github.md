@@ -9,6 +9,8 @@ description: backtrace links to GitHub
 Airbrake creates links from lines in an error's backtrace by using the
 data supplied when you enable
 [deploy tracking](/docs/airbrake-faq/deploy-tracking) for your project.
+Backtrace links require a [GitHub](https://airbrake.io/docs/integrations/github/), [GitLab](https://airbrake.io/docs/integrations/gitlab/), or [Bitbucket](https://airbrake.io/docs/integrations/bitbucket/) configured
+integration.
 
 ## Deploys create backtrace links
 When you use [deploy tracking](/docs/airbrake-faq/deploy-tracking), Airbrake
