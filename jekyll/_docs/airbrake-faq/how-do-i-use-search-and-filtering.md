@@ -44,7 +44,7 @@ Advanced filtering is available for on [all paid plans](https://airbrake.io/pric
 
 ## Filtering by Custom Attributes
 
-To filter by additional attributes not present in the standard options, first visit the "Aggregations" tab for one of your errors. Next, select an attribute from the "More aggregations" dropdown. Finally, click the "Pin aggregation for all errors & project search" button to enable search capabilities on this attribute.
+To filter by additional attributes not present in the standard options, first visit the "Aggregations" tab for one of your errors. Next, select an attribute from the "Custom aggregations" dropdown. Finally, click the "Pin aggregation for all errors & project search" button to enable search capabilities on this attribute.
 
 Custom filtering is available on the [Business plan and above](https://airbrake.io/account/plan/edit).
 
