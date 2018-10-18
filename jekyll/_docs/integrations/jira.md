@@ -23,36 +23,34 @@ This integration supports **onDemand** and **Standalone** versions of JIRA.
 1. Click **Integrations** for your project
 2. Click **JIRA**
 
-![jira settings](/docs/assets/img/docs/integrations/jira_settings.png)
-
 Identify which type of JIRA setup you are using. **OnDemand** means you're using an
 Atlassian account. **Standalone** means you setup JIRA yourself or with a 3rd
 party.
 
-**Please ensure this user you provide has proper permissions to the Project.**
+### JIRA onDemand integration:
 
-### OnDemand Settings:
+![jira-ondemand-settings](/docs/assets/img/docs/integrations/jira-ondemand-settings.png)
+
+### JIRA onDemand settings:
 - Server URL: http://myaccount.atlassian.net
-- Username: Jirauser
-- Password: JirauserPass
-- Project Key: EXAMPLE
+- Email: your-jira@email.com
+- API token: your-api-token
+- Project key: EXAMPLE
 
-### Standalone Settings:
+You can create a new API token [here](https://id.atlassian.com/manage/api-tokens).
+
+### JIRA standalone integration:
+
+![jira-standalone-settings](/docs/assets/img/docs/integrations/jira-standalone-settings.png)
+
+### JIRA standalone settings:
 - Server URL: http://jiraurl.mywebsite.com
 - Context Path: /jira
 - Username: Jirauser
 - Password: JirauserPass
-- Project Key: EXAMPLE
+- Project key: EXAMPLE
 
-## Using Google authentication with JIRA?
-
-If you're using Google auth to log into your JIRA account and you don't
-have a password, you should use your **email** (not username) and **API token**
-in Airbrake for basic auth with JIRA. API token can be created [here](https://id.atlassian.com/manage/api-tokens).
-
-In that case, your settings for basic auth would look like this:
-- Username: your@email.com
-- Password: created-API-token
+**Please ensure the user you provide has proper permissions to the Project.**
 
 ## Testing your JIRA integration settings
 
