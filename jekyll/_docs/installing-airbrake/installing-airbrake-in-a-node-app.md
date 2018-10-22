@@ -25,8 +25,6 @@ Add the Airbrake error notifier to your `package.json` then run `npm install` fr
 
 Or install the notifier [manually](https://github.com/airbrake/airbrake-js#installation)
 
-_**Note:** if you're not already using the [request](https://github.com/request/request) library, you should install it as well when installing `airbrake-js`._
-
 **Step 2:** Configure the library
 
 This is a simple Node app `app.js` file that throws an error and sends it to Airbrake. To configure Airbrake in your project, just `require` the airbrake-js library and instantiate the client as shown:
