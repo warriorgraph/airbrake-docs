@@ -78,10 +78,13 @@ for your existing project, or create a new JIRA project that supports the
 
 >401 Unauthorized - Please make sure the credentials are correct and try again.
 
-This is often caused by using an email address instead of your JIRA username in
-the **username** field.  Please verify that you are using your JIRA username.
-You can find your JIRA username in your profile page by clicking your avatar in
-JIRA.
+For JIRA standalone, this is often caused by using an email address instead of
+your JIRA username in the **username** field. Please verify that you are using
+your JIRA username. You can find your JIRA username in your profile page by
+clicking your avatar in JIRA.
+
+For JIRA onDemand you should be using **Email** and **API token** instead of
+username and password so please make sure you're using the correct email.
 
 ### Correct: specifies the username
 ![jira issues correct username](/docs/assets/img/docs/integrations/jira_issues_correct_username.png)
