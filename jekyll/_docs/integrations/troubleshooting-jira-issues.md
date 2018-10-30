@@ -84,7 +84,9 @@ your JIRA username. You can find your JIRA username in your profile page by
 clicking your avatar in JIRA.
 
 For JIRA onDemand you should be using **Email** and **API token** instead of
-username and password so please make sure you're using the correct email.
+username and password so please make sure you're using the correct email. Also,
+please ensure the API token is created on the account with the same email
+address as provided in JIRA integration on Airbrake.
 
 ### Correct: specifies the username
 ![jira issues correct username](/docs/assets/img/docs/integrations/jira_issues_correct_username.png)

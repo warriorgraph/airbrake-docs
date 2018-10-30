@@ -37,7 +37,9 @@ party.
 - API token: your-api-token
 - Project key: EXAMPLE
 
-You can create a new API token [here](https://id.atlassian.com/manage/api-tokens).
+**Please ensure the API token is created on the account with the same email
+address as provided in JIRA integration on Airbrake.** You can create a new API
+token [here](https://id.atlassian.com/manage/api-tokens).
 
 ### JIRA standalone integration:
 
