@@ -11,6 +11,6 @@ your account is currently on in the **Billing Section** or directly at
 [https://airbrake.io/billing/history](https://airbrake.io/billing/history).
 
 ### Invoicing options
-Accounts on our Pro Plan and above are qualified for our
+Accounts on our Startup plan and above are qualified for our
 yearly invoicing option. Please contact support@airbrake.io to get yearly
 invoicing set up for your account or if you have any questions.
