@@ -36,7 +36,7 @@ Airbrake has [certified it's compliance](https://www.privacyshield.gov/participa
 
 Airbrake also maintains GDPR compliance. For our EU customers we offer a Data Protection Addendum available by contacting <a href="mailto:privacy@airbrake.io?subject=GDPR Data Protection Addendum">privacy@airbrake.io</a>.
 
-Airbrake is currently preparing for a [SOC 2 Type 2 Audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html).
+To fulfill our part of the [shared responsibility model](https://aws.amazon.com/compliance/shared-responsibility-model/) for cloud services Airbrake has completed a [SOC 2 Type 2 Audit](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) audit under the Security Trust Principle.
 
 ## What about PCI DSS?
 Airbrake's payment and card information is handled by [Stripe](https://stripe.com/docs/security) a certified [PCI Level 1 Service Provider](http://www.visa.com/splisting/searchGrsp.do?companyNameCriteria=stripe,%20inc). Stripe has been audited by an independent PCI Qualified Security Assessor (QSA) and is certified PCI DSS compliant.
