@@ -102,3 +102,13 @@ Public and private sourcemaps have a file size limit of 32MB. Sourcemaps greater
   download it since, again, it's localhost
 - Airbrake then finally checks if you manually uploaded that file using this
   **private sourcemap feature**
+
+## Server side sourcemaps
+
+For server side sourcemaps (eg: for Node.js apps), please use the following
+steps:
+1. Upload sourcemap to Airbrake using our [Private Sourcemaps
+   feature](/docs/features/private-sourcemaps/#uploading-sourcemaps)
+2. Link the minified JS files to the corresponding sourcemap using the [custom
+   sourcemap URLs](/docs/features/public-sourcemaps/#custom-sourcemap-urls)
+   feature

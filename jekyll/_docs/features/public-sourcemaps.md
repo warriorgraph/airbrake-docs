@@ -53,9 +53,5 @@ airbrake.addFilter(function(notice) {
 
 ## Sourcemaps and Node.js
 
-For server side sourcemaps, please use the following steps:
-1. Upload sourcemap to Airbrake using our [Private Sourcemaps
-   feature](/docs/features/private-sourcemaps/)
-2. Link the minified JS files to the corresponding sourcemap using the [custom
-   sourcemap URLs](/docs/features/public-sourcemaps/#custom-sourcemap-urls)
-   feature
+For server side sourcemaps, please check out our [Private Sourcemaps for server
+side apps](/docs/features/private-sourcemaps/#sourcemaps-and-nodejs) section.
