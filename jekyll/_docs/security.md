@@ -2,5 +2,5 @@
 layout: classic-category
 title: Security
 categories: [security]
-description: security
+description: Airbrake security and compliance information
 ---
