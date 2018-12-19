@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Does Airbrake support SSL
-categories: [airbrake-faq]
+categories: [security]
 description: airbrake ssl support
 ---
 Airbrake defaults to TLS connections both for the errors sent by the notifier
