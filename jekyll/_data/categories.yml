@@ -1,27 +1,23 @@
-- name: "Installing Airbrake"
+- name: "Getting Started"
   slug: installing-airbrake
   index: installing-airbrake
-
-- name: "Airbrake features"
-  slug: features
-  index: features
-
-- name: "Ruby"
-  slug: ruby
-  index: ruby
-
+  
 - name: "Integrations"
   slug: integrations
   index: integrations
 
-- name: "Airbrake FAQ"
+- name: "FAQs"
   slug: airbrake-faq
   index: airbrake-faq
+
+- name: "Security"
+  slug: security
+  index: security
+
+- name: "API Reference"
+  slug: api-reference
+  index: api-reference
 
 - name: "Billing"
   slug: billing
   index: billing
-
-- name: "On Premise"
-  slug: on-premise
-  index: on-premise
