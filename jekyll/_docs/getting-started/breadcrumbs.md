@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Breadcrumbs for JavaScript
 short-title: Breadcrumbs
-categories: [features]
+categories: [getting-started]
 description: Breadcrumbs for JavaScript projects
 ---
 
