@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Security
-categories: [airbrake-faq]
+categories: [security]
 description: Airbrake Security and Compliance
 ---
 
