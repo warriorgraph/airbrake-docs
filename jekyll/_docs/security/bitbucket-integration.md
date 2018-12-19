@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Bitbucket integration
-categories: [on-premise]
+categories: [security]
 description: Bitbucket integration
 ---
 > **NOTE:** This doc is only for on-premise installations. [See Bitbucket
