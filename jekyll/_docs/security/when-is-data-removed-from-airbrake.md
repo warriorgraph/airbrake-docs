@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: When is data removed from Airbrake
-categories: [airbrake-faq]
+categories: [security]
 description: when is data removed from Airbrake
 ---
 
