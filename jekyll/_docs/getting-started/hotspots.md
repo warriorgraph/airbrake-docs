@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Hotspots
 short-title: Hotspots
-categories: [features]
+categories: [getting-started]
 description: Hotspots
 ---
 

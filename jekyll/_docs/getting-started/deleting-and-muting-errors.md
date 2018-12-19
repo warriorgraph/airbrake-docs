@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Deleting and muting errors
-categories: [features]
+categories: [getting-started]
 description: how to delete and mute errors
 ---
 

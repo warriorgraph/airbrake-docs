@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Accessing Airbrake on your smartphone
-categories: [features]
+categories: [getting-started]
 description: Using the Airbrake mobile web app
 ---
 

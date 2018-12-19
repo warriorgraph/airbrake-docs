@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: App versions
-categories: [features]
+categories: [getting-started]
 description: App versions
 ---
 

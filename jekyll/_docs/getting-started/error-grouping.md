@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Error grouping
-categories: [features]
+categories: [getting-started]
 description: How Airbrake groups errors
 ---
 

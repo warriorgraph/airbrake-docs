@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Deploy tracking troubleshooting
-categories: [features]
+categories: [getting-started]
 description: deploy tracking troubleshooting
 ---
 

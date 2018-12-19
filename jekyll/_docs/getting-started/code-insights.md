@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Code Insights
-categories: [features]
+categories: [getting-started]
 description: Code Insights
 ---
 

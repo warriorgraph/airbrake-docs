@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Public Sourcemaps
 short-title: Public Sourcemaps
-categories: [features]
+categories: [getting-started]
 description: Public sourcemaps
 ---
 

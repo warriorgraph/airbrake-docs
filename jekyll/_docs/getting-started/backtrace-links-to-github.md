@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Backtrace links to GitHub
-categories: [features]
+categories: [getting-started]
 description: backtrace links to GitHub
 ---
 

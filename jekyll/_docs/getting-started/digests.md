@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Digest emails
-categories: [features]
+categories: [getting-started]
 description: A glimpse of what happened on your account over a period of time emailed to you on a regular basis
 ---
 

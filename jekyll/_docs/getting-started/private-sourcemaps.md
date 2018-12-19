@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Private Sourcemaps
 short-title: Private Sourcemaps
-categories: [features]
+categories: [getting-started]
 description: Private sourcemaps
 ---
 

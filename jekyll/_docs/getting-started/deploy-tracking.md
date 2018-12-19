@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Deploy tracking
-categories: [features]
+categories: [getting-started]
 description: deploy tracking
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Two-factor authentication
-categories: [features]
+categories: [getting-started]
 description: Two-factor authentication
 ---
 

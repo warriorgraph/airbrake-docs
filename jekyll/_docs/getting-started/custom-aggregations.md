@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Aggregations
-categories: [features]
+categories: [getting-started]
 description: aggregations
 ---
 

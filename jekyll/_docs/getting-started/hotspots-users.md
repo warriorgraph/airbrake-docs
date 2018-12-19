@@ -2,7 +2,7 @@
 layout: classic-docs
 title: User hotspots
 short-title: User hotspots
-categories: [features]
+categories: [getting-started]
 description: User hotspots
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: classic-docs
 title: Structured logging
-categories: [features]
+categories: [getting-started]
 description: Sending structured text data
 ---
 
