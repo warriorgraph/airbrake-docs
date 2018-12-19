@@ -50,9 +50,9 @@
         {% assign title = doc.title %}
         {% endif %}
 
-        {% if doc.children %}
+        //{% if doc.children %}
         {% capture title %}{{ title }} ({{ doc.children | size }}){% endcapture %}
-        {% endif %}
+        {% endif %}//
 
         <li>
           <a class="sidebar-link{% if page.url == doc.url %} sidebar-link--active{% endif %}"
