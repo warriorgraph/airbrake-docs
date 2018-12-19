@@ -1,6 +1,6 @@
 - name: "Getting Started"
-  slug: installing-airbrake
-  index: installing-airbrake
+  slug: getting-started
+  index: getting-started
   
 - name: "Integrations"
   slug: integrations
