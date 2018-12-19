@@ -2,7 +2,7 @@
 layout: classic-docs
 title: When does my remember me cookie expire
 short-title: Remember me cookie expiration
-categories: [airbrake-faq]
+categories: [security]
 description: when does my remember me cookie expire
 ---
 
