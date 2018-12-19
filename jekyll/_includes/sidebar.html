@@ -16,9 +16,6 @@
             {% else %}
               {% assign title = doc.title %}
             {% endif %}
-            {% if doc.children %}
-              {% capture title %}{{ title }} ({{ doc.children | size }}){% endcapture %}
-            {% endif %}
             <option value="{{ site.baseurl }}{{ doc.url }}"
               {% if page.url == doc.url %}selected{% endif %}>
               &nbsp;&nbsp;{{ title }}
@@ -49,10 +46,6 @@
         {% else %}
         {% assign title = doc.title %}
         {% endif %}
-
-        //{% if doc.children %}
-        {% capture title %}{{ title }} ({{ doc.children | size }}){% endcapture %}
-        {% endif %}//
 
         <li>
           <a class="sidebar-link{% if page.url == doc.url %} sidebar-link--active{% endif %}"
