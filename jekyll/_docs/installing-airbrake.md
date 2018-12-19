@@ -1,6 +1,6 @@
 ---
 layout: classic-category
-title: Installing Airbrake
+title: Getting Started
 categories: [installing-airbrake]
 description: Installing Airbrake
 ---
