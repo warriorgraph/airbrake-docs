@@ -1,6 +1,6 @@
 ---
 layout: classic-category
-title: On Premise
-categories: [on-premise]
-description: On Premise
+title: Security
+categories: [security]
+description: security
 ---
