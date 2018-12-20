@@ -15,8 +15,8 @@
   index: security
 
 - name: "API Reference"
-  slug: api-reference
-  index: api-reference
+  slug: api
+  index: api
 
 - name: "Billing"
   slug: billing
