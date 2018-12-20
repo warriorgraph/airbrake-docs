@@ -6,7 +6,7 @@ description: Bitbucket
 ---
 > **NOTE:** This doc is only for our cloud service. [See Bitbucket
 > integration doc for on-premise
-> installations](/docs/on-premise/bitbucket-integration).
+> installations](/docs/security/bitbucket-integration).
 
 Adding the Airbrake-Bitbucket integration will create Bitbucket issues for new
 Airbrake errors.
