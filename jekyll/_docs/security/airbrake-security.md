@@ -2,7 +2,7 @@
 layout: classic-docs
 title: Airbrake Security
 categories: [security]
-description: Airbrake Security and Compliance
+description: Airbrake security and compliance
 ---
 
 ### Is data encrypted in transit?
